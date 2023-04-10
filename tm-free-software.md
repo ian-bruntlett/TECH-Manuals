@@ -24,13 +24,6 @@ CDs in a safe place (if there are any discs, that is) and keep spare copies of
 your data, possibly on recordable CD or DVD or USB thumb drive /flash drive /
 memory stick or external USB hard drives.
 
-### Piriform Utilities
-
-  * [ccleaner](https://www.ccleaner.com/) cleans up and optimises your hard disc.
-  * [defraggler](https://www.ccleaner.com/defraggler) will defragment a hard disc or a particular file.
-  * [recuva](https://www.ccleaner.com/recuva) will undelete a file.
-  * [speccy](https://www.ccleaner.com/speccy) will give you advanced System Information about your computer. Including the serial number/product key of your copy of Windows.
-
 ### Other Utilities
 
   * [ReactOS](https://reactos.org/) a free, open-source Windows replacement. Tries to run Windows applications and device drivers.
@@ -119,7 +112,7 @@ as Snaps. There is a debate over which is the better format. Here is a mixed
 collection of software that I like to use on a day to day basis:-
 
   * LibreOffice - office package already mentioned previously on this page.
-  * emacs - a text editor with a LISP programming engine still getting to grips with emacs Lisp)
+  * emacs - a text editor with a LISP programming engine (I am still getting to grips with emacs Lisp)
   * bash - a command line / scripting language that is built into Ubuntu Linux
   * Firefox - web browser
   * Stuff to try: usbguard - dealing with rogue USB devices , usbview - graphical representation of USB devices plugged in, fuse-emulator-gtk - Specrum Emulator
@@ -129,6 +122,6 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 3rd April 2023 [Validating a web
+Created : Years Ago. Last update : 10th April 2023 [Validating a web
 page.](http://validator.w3.org/nu/#file)  
 
