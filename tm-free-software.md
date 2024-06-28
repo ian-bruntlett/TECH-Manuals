@@ -28,6 +28,12 @@ memory stick or external USB hard drives.
 
   * [ReactOS](https://reactos.org/) a free, open-source Windows replacement. Tries to run Windows applications and device drivers.
   * [sysinternals](https://learn.microsoft.com/en-gb/sysinternals/) by [Mark Russinovich](https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/). 
+  * [PowerToys from the Microsoft App Store](https://apps.microsoft.com/detail/XP89DCGQ3K6VLD?hl=en-gb&gl=US)
+  * [7-Zip to handle additional archive files](https://7-zip.org/)
+  * [VLC media player](http://www.videolan.org/vlc/index.html)
+  * [paint.net](https://www.getpaint.net/index.html)
+  * [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
+  * [WinDirStat - find out where all your drive space is being used up](https://windirstat.net/)
 
 ### DOS and Utilities
 
@@ -42,11 +48,22 @@ programs they aim to replace right
 
 With Linux (I use mainly [Ubuntu](https://ubuntu.com/) \- or [Debian
 Linux](https://www.debian.org/) or [lubuntu](https://lubuntu.me/) on older
-computers), the challenge is knowing which packages your free software is in.
+computers and someone I know really likes [Peppermint Linux (Debian
+based)](https://peppermintos.com/) OR [Antix Linux (Debian
+based)](https://antixlinux.com/)), the challenge is knowing which packages
+your free software is in.
 
 To install Ubuntu Linux, you'll need an .iso file, downloadable from
-[here](http://releases.ubuntu.com/) If you want to download a flavour of
-Ubuntu Linux, take a look here [here](https://cdimages.ubuntu.com/).
+[here](http://releases.ubuntu.com/). If you want to download a flavour of
+Ubuntu Linux, take a look here [here](https://cdimages.ubuntu.com/). If you
+want a different Linux, take a look at [DistroWatch](https://distrowatch.com/)
+to find out about other distributions of Linux.
+
+There are other flavours of Ubuntu Linux, for those who aren't keen on Ubuntu.
+The Register, in this
+[article](https://www.theregister.com/2024/06/10/linux_lite_70_arrives/),
+discusses [Linux Lite](https://www.linuxliteos.com/) which doesn't require as
+much memory as Ubuntu.
 
 With Linux, there are at least two databases about packages. The package
 database on your computer tracks what is installed and which version it is.
@@ -60,19 +77,31 @@ the databases mentioned previously, a "Software Updater" programme can run
 every so often and tell the user about newer releases of currently installed
 software.
 
+### Frugal Linuxes
+
 Alan, another refurbisher of unwanted systems, likes to use [antiX
 Linux](https://antixlinux.com/) on his old systems, something I haven't
 experimented with... another thing I haven't experimented with is
-[AlmaLinux](https://almalinux.org/), an RPM based distro that is currently 1:1
-binary compatible with Red Hat Enterprise Linux. For information about
-different Linux or BSD operating systems, see
+[xubuntu](https://xubuntu.org/) or [AlmaLinux](https://almalinux.org/),an RPM
+based distro that is currently 1:1 binary compatible with Red Hat Enterprise
+Linux. For information about different Linux or BSD operating systems, see
 [DistroWatch](https://distrowatch.com).
+
+There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php)
+(core is text only, TinyCore has a GUI and CorePlus has extra apps). The book,
+"Into the core - A look at Tiny Core Linux" is available
+[online](http://tinycorelinux.net/book.html).
 
 ## Creating bootable installation media for downloaded iso files
 
   * Startup Disc Creator (aka usb-creator-gtk) - for creating install media for different releases of Linux etc. Brasero to record isos onto DVD or CD
   * To create a USB memory stick to boot a single iso, use usb-creator-gtk. If you want multiple isos on a memory stick, see [Ventoy](https://www.ventoy.net/en/index.html). 
   * [Rufus](https://rufus.ie/en/) create bootable USB flash drives (nice GUI etc) in Windows.
+
+### Linux for phones and other mobile devices (e.g. tablets?)
+
+It's early days yet and I haven't tried this myself. However,
+[postmarketos](https://postmarketos.org/) might be of interest.
 
 ## Free Software that runs on both Windows and Linux
 
@@ -96,13 +125,13 @@ put it onto recordable CD or DVD, and follow the instructions.
 
   * If your Windows computer is heavily infected with viruses, search on [https://www.microsoft.com/](https://www.microsoft.com) and search for "Windows Defender Offline" where you can download an iso, record it to CD-R using special software, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use CAINE (see below) to copy data off the hard drive (see below). 
   * [CAINE](https://www.caine-live.net/) is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.
+  * [Rescuezilla (GitHub)](https://github.com/rescuezilla/rescuezilla/releases) see article on [The Register](https://www.theregister.com/2024/05/16/rescuezilla_2_5/). Good tool for imaging and restoring drives.
   * [Clonezilla](https://clonezilla.org/) is a live CD that is a (hard disc) partitioning and cloning programme. It needs plenty of disc space but is intelligent - it only copies sectors that have information in them.
   * [aban](https://aban.derobert.net/) is an open-source alternative to [dban](https://dban.org/). They will both wipe one or more hard discs attached to your computer.
   * [GParted](https://gparted.org/) will resize, copy, move and potentially rescue files on a computer's hard disc.
   * [Hiren's Boot CD](https://www.hirensbootcd.org/) is a "first aid kit" for your computer.
   * [memtest86+](https://www.memtest.org/) will help you check your PC's memory, if you suspect that your computer is faulty..
-  * [Rescatux & Super Gru 2 Disk](https://www.supergrubdisk.org/rescatux/) will fix filesystems, wipe passwords (Linux/Windows), make a user a sudoer.
-  * [rescuezilla.com](https://rescuezilla.com/) Disc cloning and backup tool.
+  * [Rescatux & Super Grub 2 Disk](https://www.supergrubdisk.org/rescatux/) will fix filesystems, wipe passwords (Linux/Windows), make a user a sudoer.
   * [SystemRescue CD](https://www.system-rescue.org/) is a collection of many Linux packages. It is intended for use when you need to fix a problem on your computer.
 
 ## Ubuntu Linux Software
@@ -120,8 +149,9 @@ collection of software that I like to use on a day to day basis:-
 ## Notes on markdown and HTML
 
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
-  * [Ubuntu - html-to-markdown](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
+  * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 10th April 2023 [Validating a web
-page.](http://validator.w3.org/nu/#file)  
+Created : Years Ago. Last update : 20th June 2024 [(This page
+online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
+software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
