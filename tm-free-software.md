@@ -125,6 +125,7 @@ put it onto recordable CD or DVD, and follow the instructions.
 
   * If your Windows computer is heavily infected with viruses, search on [https://www.microsoft.com/](https://www.microsoft.com) and search for "Windows Defender Offline" where you can download an iso, record it to CD-R using special software, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use CAINE (see below) to copy data off the hard drive (see below). 
   * [CAINE](https://www.caine-live.net/) is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.
+  * As well as CAINE, there is [Kali Linux](https://www.kali.org/) which I have not tried yet.
   * [Rescuezilla (GitHub)](https://github.com/rescuezilla/rescuezilla/releases) see article on [The Register](https://www.theregister.com/2024/05/16/rescuezilla_2_5/). Good tool for imaging and restoring drives.
   * [Clonezilla](https://clonezilla.org/) is a live CD that is a (hard disc) partitioning and cloning programme. It needs plenty of disc space but is intelligent - it only copies sectors that have information in them.
   * [aban](https://aban.derobert.net/) is an open-source alternative to [dban](https://dban.org/). They will both wipe one or more hard discs attached to your computer.
@@ -151,7 +152,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 20th June 2024 [(This page
+Created : Years Ago. Last update : 20th July 2024 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
