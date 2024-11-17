@@ -92,6 +92,11 @@ There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php)
 "Into the core - A look at Tiny Core Linux" is available
 [online](http://tinycorelinux.net/book.html).
 
+### Heavy-weight Linuxes
+
+  * [openSUSE](https://www.opensuse.org/)
+  * [Red Hat (you need to sign up as a Developer, I believe).](https://www.redhat.com/en)
+
 ## Creating bootable installation media for downloaded iso files
 
   * Startup Disc Creator (aka usb-creator-gtk) - for creating install media for different releases of Linux etc. Brasero to record isos onto DVD or CD
@@ -152,7 +157,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 20th July 2024 [(This page
+Created : Years Ago. Last update : 6th October 2024 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
