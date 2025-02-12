@@ -7,6 +7,9 @@ list of packages.
 For U.K. government advice on security, see this website - [Cyber
 Essentials](https://www.ncsc.gov.uk/cyberaware/home)
 
+To get information on local Linux User Groups in the UK, see this website -
+[lug.org.uk](https://lug.org.uk/)
+
 ## Windows - Free Software
 
 ### Security Software
@@ -46,9 +49,9 @@ programs they aim to replace right
 
 ## Linux
 
-With Linux (I use mainly [Ubuntu](https://ubuntu.com/) \- or [Debian
-Linux](https://www.debian.org/) or [lubuntu](https://lubuntu.me/) on older
-computers and someone I know really likes [Peppermint Linux (Debian
+With Linux (I use mainly [Ubuntu (Debian based)](https://ubuntu.com/) \- or
+[Debian Linux](https://www.debian.org/) or [lubuntu](https://lubuntu.me/) on
+older computers and someone I know really likes [Peppermint Linux (Debian
 based)](https://peppermintos.com/) OR [Antix Linux (Debian
 based)](https://antixlinux.com/)), the challenge is knowing which packages
 your free software is in.
@@ -82,20 +85,19 @@ software.
 Alan, another refurbisher of unwanted systems, likes to use [antiX
 Linux](https://antixlinux.com/) on his old systems, something I haven't
 experimented with... another thing I haven't experimented with is
-[xubuntu](https://xubuntu.org/) or [AlmaLinux](https://almalinux.org/),an RPM
-based distro that is currently 1:1 binary compatible with Red Hat Enterprise
-Linux. For information about different Linux or BSD operating systems, see
-[DistroWatch](https://distrowatch.com).
+[xubuntu](https://xubuntu.org/). For information about different Linux or BSD
+operating systems, see [DistroWatch](https://distrowatch.com).
 
 There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php)
 (core is text only, TinyCore has a GUI and CorePlus has extra apps). The book,
 "Into the core - A look at Tiny Core Linux" is available
 [online](http://tinycorelinux.net/book.html).
 
-### Heavy-weight Linuxes
+### Heavy-weight RPM-based Linuxes
 
   * [openSUSE](https://www.opensuse.org/)
   * [Red Hat (you need to sign up as a Developer, I believe).](https://www.redhat.com/en)
+  * [AlmaLinux - currently 1:1 binary compatible with Red Hat Enterprise Linux](https://almalinux.org/)
 
 ## Creating bootable installation media for downloaded iso files
 
@@ -140,7 +142,7 @@ put it onto recordable CD or DVD, and follow the instructions.
   * [Rescatux & Super Grub 2 Disk](https://www.supergrubdisk.org/rescatux/) will fix filesystems, wipe passwords (Linux/Windows), make a user a sudoer.
   * [SystemRescue CD](https://www.system-rescue.org/) is a collection of many Linux packages. It is intended for use when you need to fix a problem on your computer.
 
-## Ubuntu Linux Software
+## Linux Software I have played with on Linux
 
 This can come in a number of formats. Some as packages (aka .deb files), some
 as Snaps. There is a debate over which is the better format. Here is a mixed
@@ -150,14 +152,14 @@ collection of software that I like to use on a day to day basis:-
   * emacs - a text editor with a LISP programming engine (I am still getting to grips with emacs Lisp)
   * bash - a command line / scripting language that is built into Ubuntu Linux
   * Firefox - web browser
-  * Stuff to try: usbguard - dealing with rogue USB devices , usbview - graphical representation of USB devices plugged in, fuse-emulator-gtk - Specrum Emulator
+  * Stuff to try: usbguard - dealing with rogue USB devices , usbview - graphical representation of USB devices plugged in, fuse-emulator-gtk - Specrum Emulator, [KiCAD - Electronic Design Automation](https://www.kicad.org/about/kicad/)
 
 ## Notes on markdown and HTML
 
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 6th October 2024 [(This page
+Created : Years Ago. Last update : 23rd December 2024 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
