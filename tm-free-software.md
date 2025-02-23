@@ -80,6 +80,17 @@ the databases mentioned previously, a "Software Updater" programme can run
 every so often and tell the user about newer releases of currently installed
 software.
 
+### Ubuntu specific - which flavour to use, how to install, how to get using
+Ubuntu
+
+  * [Official Ubuntu site for downloading and documentation](https://www.ubuntu.com/desktop)
+  * [Official Ubuntu page for installing Ubuntu Desktop.](https://ubuntu.com/tutorials/install-ubuntu-desktop#0)
+  * [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
+  * [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
+  * [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
+  * [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
+  * [Extensions for the GNOME desktop.](https://extensions.gnome.org)
+
 ### Frugal Linuxes
 
 Alan, another refurbisher of unwanted systems, likes to use [antiX
@@ -159,7 +170,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 23rd December 2024 [(This page
+Created : Years Ago. Last update : 23rd February 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
