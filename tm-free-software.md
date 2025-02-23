@@ -80,10 +80,9 @@ the databases mentioned previously, a "Software Updater" programme can run
 every so often and tell the user about newer releases of currently installed
 software.
 
-### Ubuntu specific - which flavour to use, how to install, how to get using
-Ubuntu
+### Ubuntu Linux specific pages
 
-  * [Official Ubuntu site for downloading and documentation](https://www.ubuntu.com/desktop)
+  * [Official Ubuntu site for downloading and documentation.](https://www.ubuntu.com/desktop)
   * [Official Ubuntu page for installing Ubuntu Desktop.](https://ubuntu.com/tutorials/install-ubuntu-desktop#0)
   * [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
   * [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
