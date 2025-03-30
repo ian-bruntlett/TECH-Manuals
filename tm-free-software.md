@@ -49,6 +49,9 @@ programs they aim to replace right
 
 ## Linux
 
+For information about different Linux or BSD operating systems, see
+[DistroWatch](https://distrowatch.com).
+
 With Linux (I use mainly [Ubuntu (Debian based)](https://ubuntu.com/) \- or
 [Debian Linux](https://www.debian.org/) or [lubuntu](https://lubuntu.me/) on
 older computers and someone I know really likes [Peppermint Linux (Debian
@@ -92,22 +95,24 @@ software.
 
 ### Frugal Linuxes
 
-Alan, another refurbisher of unwanted systems, likes to use [antiX
-Linux](https://antixlinux.com/) on his old systems, something I haven't
-experimented with... another thing I haven't experimented with is
-[xubuntu](https://xubuntu.org/). For information about different Linux or BSD
-operating systems, see [DistroWatch](https://distrowatch.com).
-
-There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php)
-(core is text only, TinyCore has a GUI and CorePlus has extra apps). The book,
-"Into the core - A look at Tiny Core Linux" is available
-[online](http://tinycorelinux.net/book.html).
+  * Alan, another refurbisher of unwanted systems, likes to use [antiX Linux](https://antixlinux.com/) on his old systems, something I haven't experimented with...
+  * I have experimented with Xubuntu [xubuntu](https://xubuntu.org/) \- gives Ubuntu with a lighter-weight desktop environment.
+  * Something that is intended for really small systems (but quite demanding to install) is [Alpine Linux](https://www.alpinelinux.org/), with documentation [here](https://docs.alpinelinux.org/) and a [wiki here](https://wiki.alpinelinux.org/wiki/Main_Page).
+  * There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php) (core is text only, TinyCore has a GUI and CorePlus has extra apps). The book, "Into the core - A look at Tiny Core Linux" is available [online](http://tinycorelinux.net/book.html). 
 
 ### Heavy-weight RPM-based Linuxes
 
   * [openSUSE](https://www.opensuse.org/)
   * [Red Hat (you need to sign up as a Developer, I believe).](https://www.redhat.com/en)
   * [AlmaLinux - currently 1:1 binary compatible with Red Hat Enterprise Linux](https://almalinux.org/)
+
+### Linux on Apple hardware
+
+I don't use Apple hardware but if I see any useful things online about running
+Linux on Apple hardware, I'll cite it here
+
+  * [Reviving an old MacBook Pro with Ubuntu Linux (medium.com)](https://medium.com/@rowaido.game/reviving-an-old-macbook-pro-with-ubuntu-linux-689252fa4b9c)
+  * [Linux support for Apple devices with the T2 security chip](https://t2linux.org/)
 
 ## Creating bootable installation media for downloaded iso files
 
@@ -169,7 +174,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 23rd February 2025 [(This page
+Created : Years Ago. Last update : 27th March 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
