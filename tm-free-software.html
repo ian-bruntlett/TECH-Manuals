@@ -20,13 +20,15 @@ To get information on local Linux User Groups in the UK, see this website - <a h
 </p>
 
 <h2>Windows - Free Software</h2>
-<p>
   <h3>Security Software</h3>
   <ul>    
    <li>For anti-virus support: Use Windows Defender - it comes free with modern versions of Windows.</li>
    <li>For anti-malware support. Use <a href="https://www.malwarebytes.com/">https://www.malwarebytes.com/</a>. The free version has to be run manually to work. The paid for version is continually running, checking your computer is OK.</li>
+<li>
+If your Windows computer is heavily infected with viruses, search on <a href="https://www.microsoft.com">https://www.microsoft.com/</a> and search for "Windows Defender Offline" where you can download an iso, record it to CD-R <a href="#creating-bootable-installation-media">using special software</a>, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use <a href="https://www.caine-live.net/">CAINE</a> to copy data off the hard drive.
+</li>
   </ul>
-      
+  
   <h3>Backups</h3>
 <p>
   These days the hackers hold your data hostage - they encrypt it and demand a ransom from you to get your data released - this is commonly known as "ransomware". There are various service providers for this (Crashplan and Dropbox) but I don't  use them. Best thing to do is to keep all your software CDs in a safe place (if there are any discs, that is) and keep spare copies of your data, possibly on recordable CD or DVD or USB thumb drive /flash drive / memory stick or external USB hard drives.
@@ -109,7 +111,7 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
 </ul>
 
 <h3>Linux on Apple hardware</h3>
-<p>I don't use Apple hardware but if I see any useful things online about running Linux on Apple hardware, I'll cite it here</p>
+<p>I don't use Apple hardware but if I see any useful things online about running Linux on Apple hardware, I'll cite them here:</p>
 <ul>
   <li><a href="https://medium.com/@rowaido.game/reviving-an-old-macbook-pro-with-ubuntu-linux-689252fa4b9c">Reviving an old MacBook Pro with Ubuntu Linux (medium.com)</a></li>
   <li><a href="https://t2linux.org/">Linux support for Apple devices with the T2 security chip</a></li>
@@ -123,7 +125,8 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
  <li>To create a USB memory stick to boot a single iso, use usb-creator-gtk. If you want multiple isos on a memory stick,
      see <a href="https://www.ventoy.net/en/index.html">Ventoy</a>.
  </li>
-   <li><a href="https://rufus.ie/en/">Rufus</a> create bootable USB flash drives (nice GUI etc) in Windows.</li> 
+   <li>Use <a href="https://rufus.ie/en/">Rufus</a> create a bootable USB flash drives (nice GUI etc) in Windows using a single iso file.</li> 
+   <li>Use <a href="https://www.ventoy.net/en/index.html">Ventoy</a> create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.</li> 
 </ul>
 
 <h3>Linux for phones and other mobile devices (e.g. tablets?)</h3>
@@ -159,34 +162,34 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
   
 </ul> <!-- End of Free Software for both Windows and Linux -->
   
-<h2>Linux Live CD/DVDs (technical stuff)</h2>
+<h2>Linux Live CD/DVDs, Repair etc Linux distros (technical stuff)</h2>
 <p>
-Some Linuxes come on "live CDs". This means that you can start a computer with the CD/DVD inside it and have it run Linux without modifying your hard disc. A live CD/DVD is stored on a server with a filename ending in ".iso". In order to use it, you or a friend need to download the iso, <a href="#creating-bootable-installation-media">use special software</a> to put it onto recordable CD or DVD, and follow the instructions.
+  Some Linuxes come on "live CDs". This means that you can start a computer with the CD/DVD inside it and have it run Linux without modifying your hard disc. A live CD/DVD is stored on a server with a filename ending in ".iso". In order to use it, you or a friend need to download the iso, <a href="#creating-bootable-installation-media">use special software</a> to put it onto recordable CD or DVD, and follow the instructions. Use <a href="https://rufus.ie/en/">Rufus</a> create bootable USB flash drives (nice GUI etc) in Windows. To put multiple isos on the same USB memory stick use <a href="https://www.ventoy.net/en/index.html">Ventoy</a>.
 </p>
-
 <ul>
-<li>
-If your Windows computer is heavily infected with viruses, search on <a href="https://www.microsoft.com">https://www.microsoft.com/</a> and search for "Windows Defender Offline" where you can download an iso, record it to CD-R <a href="#creating-bootable-installation-media">using special software</a>, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use CAINE (see below) to copy data off the hard drive (see below).
-</li>
+<li><a href="https://aban.derobert.net/">aban</a> is an open-source alternative to <a href="https://dban.org/">dban</a>. They will both wipe one or more hard discs attached to your computer.</li>
 
 <li><a href="https://www.caine-live.net/">CAINE</a> is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.</li>
-<li>As well as CAINE, there is <a href="https://www.kali.org/">Kali Linux</a> which I have not tried yet.</li>
-
-<li><a href="https://github.com/rescuezilla/rescuezilla/releases">Rescuezilla (GitHub)</a> see article on <a href="https://www.theregister.com/2024/05/16/rescuezilla_2_5/">The Register</a>. Good tool for imaging and restoring drives.</li>
 
 <li><a href="https://clonezilla.org/">Clonezilla</a> is a live CD that is a (hard disc) partitioning and cloning programme. It needs plenty of disc space but is intelligent - it only copies sectors that have information in them.</li>
 
-<li><a href="https://aban.derobert.net/">aban</a> is an open-source alternative to <a href="https://dban.org/">dban</a>. They will both wipe one or more hard discs attached to your computer.</li>
+<li><a href="https://www.finnix.org/">Finnix</a> - The original utility live Linux distro. Fits on a CD. Lots of tools but no documentation</li>
 
 <li><a href="https://gparted.org/">GParted</a> will resize, copy, move and potentially rescue files on a computer's hard disc.</li>
 
 <li><a href="https://www.hirensbootcd.org/">Hiren's Boot CD</a> is a "first aid kit" for your computer.</li>
 
+<li><a href="https://www.kali.org/">Kali Linux</a> is used for penetration testing, something  I have not tried yet.</li>
+
 <li><a href="https://www.memtest.org/">memtest86+</a> will help you check your PC's memory, if you suspect that your computer is faulty..</li>
 
 <li><a href="https://www.supergrubdisk.org/rescatux/">Rescatux &amp; Super Grub 2 Disk</a> will fix filesystems, wipe passwords (Linux/Windows), make a user a sudoer.</li>
 
+<li><a href="https://github.com/rescuezilla/rescuezilla/releases">Rescuezilla (GitHub)</a> see article on <a href="https://www.theregister.com/2024/05/16/rescuezilla_2_5/">The Register</a>. Good tool for imaging and restoring drives.</li>
+
 <li><a href="https://www.system-rescue.org/">SystemRescue CD</a> is a collection of many Linux packages. It is intended for use when you need to fix a problem on your computer.</li>
+
+<li><a href="https://www.ultimatebootcd.com/">Ultimate Boot CD - a lot of formerly floppy disk only utilities. There is further info on the website</a></li>
 
 </ul> <!-- End of Linux Live CD/DVDs (technical stuff) -->
 
@@ -207,7 +210,7 @@ If your Windows computer is heavily infected with viruses, search on <a href="ht
   <li><a href="https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html">Ubuntu - html-to-markdown uses the html2markdown command</a></li>
 </ul>
 
- Created : Years Ago. Last update : 27th March 2025
+ Created : Years Ago. Last update : 6th April 2025
 <a href="https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-software.md">(This page online)</a>
 <a href="http://validator.w3.org/nu/#file">Validating a web page.</a>
 
