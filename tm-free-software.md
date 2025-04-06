@@ -16,6 +16,7 @@ To get information on local Linux User Groups in the UK, see this website -
 
   * For anti-virus support: Use Windows Defender - it comes free with modern versions of Windows.
   * For anti-malware support. Use <https://www.malwarebytes.com/>. The free version has to be run manually to work. The paid for version is continually running, checking your computer is OK.
+  * If your Windows computer is heavily infected with viruses, search on [https://www.microsoft.com/](https://www.microsoft.com) and search for "Windows Defender Offline" where you can download an iso, record it to CD-R using special software, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use [CAINE](https://www.caine-live.net/) to copy data off the hard drive. 
 
 ### Backups
 
@@ -109,7 +110,7 @@ software.
 ### Linux on Apple hardware
 
 I don't use Apple hardware but if I see any useful things online about running
-Linux on Apple hardware, I'll cite it here
+Linux on Apple hardware, I'll cite them here:
 
   * [Reviving an old MacBook Pro with Ubuntu Linux (medium.com)](https://medium.com/@rowaido.game/reviving-an-old-macbook-pro-with-ubuntu-linux-689252fa4b9c)
   * [Linux support for Apple devices with the T2 security chip](https://t2linux.org/)
@@ -118,7 +119,8 @@ Linux on Apple hardware, I'll cite it here
 
   * Startup Disc Creator (aka usb-creator-gtk) - for creating install media for different releases of Linux etc. Brasero to record isos onto DVD or CD
   * To create a USB memory stick to boot a single iso, use usb-creator-gtk. If you want multiple isos on a memory stick, see [Ventoy](https://www.ventoy.net/en/index.html). 
-  * [Rufus](https://rufus.ie/en/) create bootable USB flash drives (nice GUI etc) in Windows.
+  * Use [Rufus](https://rufus.ie/en/) create a bootable USB flash drives (nice GUI etc) in Windows using a single iso file.
+  * Use [Ventoy](https://www.ventoy.net/en/index.html) create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.
 
 ### Linux for phones and other mobile devices (e.g. tablets?)
 
@@ -137,25 +139,29 @@ It's early days yet and I haven't tried this myself. However,
   * To create a USB memory stick to boot a variety of ISO files, see [Ventoy](https://www.ventoy.net/en/index.html) listed under Creating bootable installation media.
   * To display technical info about your system see [CPU-Z (for Windows)](https://www.cpuid.com/softwares/cpu-z.html) or CPU-X (for Linux) 
 
-## Linux Live CD/DVDs (technical stuff)
+## Linux Live CD/DVDs, Repair etc Linux distros (technical stuff)
 
 Some Linuxes come on "live CDs". This means that you can start a computer with
 the CD/DVD inside it and have it run Linux without modifying your hard disc. A
 live CD/DVD is stored on a server with a filename ending in ".iso". In order
 to use it, you or a friend need to download the iso, use special software to
-put it onto recordable CD or DVD, and follow the instructions.
+put it onto recordable CD or DVD, and follow the instructions. Use
+[Rufus](https://rufus.ie/en/) create bootable USB flash drives (nice GUI etc)
+in Windows. To put multiple isos on the same USB memory stick use
+[Ventoy](https://www.ventoy.net/en/index.html).
 
-  * If your Windows computer is heavily infected with viruses, search on [https://www.microsoft.com/](https://www.microsoft.com) and search for "Windows Defender Offline" where you can download an iso, record it to CD-R using special software, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use CAINE (see below) to copy data off the hard drive (see below). 
-  * [CAINE](https://www.caine-live.net/) is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.
-  * As well as CAINE, there is [Kali Linux](https://www.kali.org/) which I have not tried yet.
-  * [Rescuezilla (GitHub)](https://github.com/rescuezilla/rescuezilla/releases) see article on [The Register](https://www.theregister.com/2024/05/16/rescuezilla_2_5/). Good tool for imaging and restoring drives.
-  * [Clonezilla](https://clonezilla.org/) is a live CD that is a (hard disc) partitioning and cloning programme. It needs plenty of disc space but is intelligent - it only copies sectors that have information in them.
   * [aban](https://aban.derobert.net/) is an open-source alternative to [dban](https://dban.org/). They will both wipe one or more hard discs attached to your computer.
+  * [CAINE](https://www.caine-live.net/) is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.
+  * [Clonezilla](https://clonezilla.org/) is a live CD that is a (hard disc) partitioning and cloning programme. It needs plenty of disc space but is intelligent - it only copies sectors that have information in them.
+  * [Finnix](https://www.finnix.org/) \- The original utility live Linux distro. Fits on a CD. Lots of tools but no documentation
   * [GParted](https://gparted.org/) will resize, copy, move and potentially rescue files on a computer's hard disc.
   * [Hiren's Boot CD](https://www.hirensbootcd.org/) is a "first aid kit" for your computer.
+  * [Kali Linux](https://www.kali.org/) is used for penetration testing, something I have not tried yet.
   * [memtest86+](https://www.memtest.org/) will help you check your PC's memory, if you suspect that your computer is faulty..
   * [Rescatux & Super Grub 2 Disk](https://www.supergrubdisk.org/rescatux/) will fix filesystems, wipe passwords (Linux/Windows), make a user a sudoer.
+  * [Rescuezilla (GitHub)](https://github.com/rescuezilla/rescuezilla/releases) see article on [The Register](https://www.theregister.com/2024/05/16/rescuezilla_2_5/). Good tool for imaging and restoring drives.
   * [SystemRescue CD](https://www.system-rescue.org/) is a collection of many Linux packages. It is intended for use when you need to fix a problem on your computer.
+  * [Ultimate Boot CD - a lot of formerly floppy disk only utilities. There is further info on the website](https://www.ultimatebootcd.com/)
 
 ## Linux Software I have played with on Linux
 
@@ -174,7 +180,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 27th March 2025 [(This page
+Created : Years Ago. Last update : 6th April 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
