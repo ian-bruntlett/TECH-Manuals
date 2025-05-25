@@ -10,6 +10,9 @@ Essentials](https://www.ncsc.gov.uk/cyberaware/home)
 To get information on local Linux User Groups in the UK, see this website -
 [lug.org.uk](https://lug.org.uk/)
 
+If you ask for help online, please read [How To Ask Questions The Smart
+Way.](http://www.catb.org/esr/faqs/smart-questions.html)
+
 ## Windows - Free Software
 
 ### Security Software
@@ -97,6 +100,7 @@ software.
 ### Frugal Linuxes
 
   * Alan, another refurbisher of unwanted systems, likes to use [antiX Linux](https://antixlinux.com/) on his old systems, something I haven't experimented with...
+  * Useful on slow x86_64 systems is [ArchBang](https://archbang.org/), a live distro.
   * I have experimented with Xubuntu [xubuntu](https://xubuntu.org/) \- gives Ubuntu with a lighter-weight desktop environment.
   * Something that is intended for really small systems (but quite demanding to install) is [Alpine Linux](https://www.alpinelinux.org/), with documentation [here](https://docs.alpinelinux.org/) and a [wiki here](https://wiki.alpinelinux.org/wiki/Main_Page).
   * There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php) (core is text only, TinyCore has a GUI and CorePlus has extra apps). The book, "Into the core - A look at Tiny Core Linux" is available [online](http://tinycorelinux.net/book.html). 
@@ -175,12 +179,17 @@ collection of software that I like to use on a day to day basis:-
   * Firefox - web browser
   * Stuff to try: usbguard - dealing with rogue USB devices , usbview - graphical representation of USB devices plugged in, fuse-emulator-gtk - Specrum Emulator, [KiCAD - Electronic Design Automation](https://www.kicad.org/about/kicad/)
 
+## Linux courses
+
+  * [Best Linux online courses (geeksforgeeks.org).](https://www.geeksforgeeks.org/best-linux-online-courses/)
+  * [linuxupskillchallenge.org](https://linuxupskillchallenge.org/)
+
 ## Notes on markdown and HTML
 
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 6th April 2025 [(This page
+Created : Years Ago. Last update : 22nd May 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
