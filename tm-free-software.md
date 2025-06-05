@@ -13,6 +13,9 @@ To get information on local Linux User Groups in the UK, see this website -
 If you ask for help online, please read [How To Ask Questions The Smart
 Way.](http://www.catb.org/esr/faqs/smart-questions.html)
 
+The [Awesome Project](https://github.com/sindresorhus/awesome) is an attempt
+to classify just about everything. Take a look...
+
 ## Windows - Free Software
 
 ### Security Software
@@ -189,7 +192,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 22nd May 2025 [(This page
+Created : Years Ago. Last update : 29th May 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
