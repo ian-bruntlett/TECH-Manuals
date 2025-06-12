@@ -100,6 +100,10 @@ software.
   * [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
   * [Extensions for the GNOME desktop.](https://extensions.gnome.org)
 
+### Other Linux specific documentation pages
+
+  * [Arch Linux documentation.](https://wiki.archlinux.org/title/General_recommendations)
+
 ### Frugal Linuxes
 
   * Alan, another refurbisher of unwanted systems, likes to use [antiX Linux](https://antixlinux.com/) on his old systems, something I haven't experimented with...
@@ -192,7 +196,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 29th May 2025 [(This page
+Created : Years Ago. Last update : 12th June 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
