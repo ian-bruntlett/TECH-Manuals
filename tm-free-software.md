@@ -191,12 +191,17 @@ collection of software that I like to use on a day to day basis:-
   * [Best Linux online courses (geeksforgeeks.org).](https://www.geeksforgeeks.org/best-linux-online-courses/)
   * [linuxupskillchallenge.org](https://linuxupskillchallenge.org/)
 
+## Linux server stuff - untried
+
+  * [Install NextCloud on Ubuntu 22.04 LTS.](https://mailserverguru.com/install-nextcloud-on-ubuntu-22-04-lts/)
+  * [How to install and configure Nextcloud on Ubuntu 20.04.](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04)
+
 ## Notes on markdown and HTML
 
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 12th June 2025 [(This page
+Created : Years Ago. Last update : 17th June 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
