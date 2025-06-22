@@ -24,7 +24,39 @@ To get information on local Linux User Groups in the UK, see this website - <a h
 
 <p>The <a href="https://github.com/sindresorhus/awesome">Awesome Project</a> is an attempt to classify just about everything. Take a look...</p>
 
+<p>Links within this page.
+<ul>
+  <li><a href="#Windows-Free-Software">Windows - Free Software</a><ul>
+    <li><a href="#Windows-Security-Software">Security software.</a></li>
+    <li><a href="#Windows-Backups">Backups.</a></li>
+    <li><a href="#Windows-Other-Utilities">Other utilities.</a></li>
+    <li><a href="#DOS-and-Utilities">DOS and utilities.</a></li>
+  </ul></li>    
+  <li><a href="#Linux">Linux</a>
+    <ul>
+     <li><a href="#Ubuntu-Linux-Pages">Ubuntu Linux Specific pages</a></li>      
+     <li><a href="#Other-Linux-Specific-Pages">Other Linux specific pages</a></li>      
+     <li><a href="#Thinking-of-moving-from-Windows-to-Linux">If you are thinking of moving from Windows to Linux.</a></li>      
+     <li><a href="#Moving-from-Windows-to-Linux">Moving someone from Windows to Linux (experts only)</a></li>      
+     <li><a href="#Frugal-Linuxes">Frugal Linuxes.</a></li>      
+     <li><a href="#Heavy-Weight-RPM-Linuxes">Heavy-weight RPM-based Linuxes</a></li>      
+     <li><a href="#Linux-on-Apple-hardware">Linux on Apple hardware</a></li>      
+    </ul>	   
+  </li>
+  <li><a href="#creating-bootable-installation-media">Creating bootable installation media for downloaded iso files</a></li>
+  <li><a href="#linux-for-phones-and-other-mobile-devices">Linux for phones and other mobile devices (e.g. tablets?)</a></li>
+  <li><a href="#free-software-that-runs-on-both-windows-and-linux">Free Software that runs on both Windows and Linux</a></li>
+  <li><a href="#Linux-live-CDs-DVDs-isos">Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)</a></li>
+  <li><a href="#Linux-software-I-have-used-on-Linux">Linux Software I have used on Linux</a></li>
+  <li><a href="#Linux-software-I-havent-used">Linux Software I haven't used</a></li>
+  <li><a href="#linux-courses">Linux courses</a></li>
+  <li><a href="#Linux-server-stuff">Linux server stuff - untried</a></li>
+  <li><a href="#Notes-on-markdown-and-HTML">Notes on markdown and HTML</a></li>
+</ul>
+
+<a id="Windows-Free-Software"></a>
 <h2>Windows - Free Software</h2>
+<a id="Windows-Security-Software"></a>  
   <h3>Security Software</h3>
   <ul>    
    <li>For anti-virus support: Use Windows Defender - it comes free with modern versions of Windows.</li>
@@ -33,13 +65,15 @@ To get information on local Linux User Groups in the UK, see this website - <a h
 If your Windows computer is heavily infected with viruses, search on <a href="https://www.microsoft.com">https://www.microsoft.com/</a> and search for "Windows Defender Offline" where you can download an iso, record it to CD-R <a href="#creating-bootable-installation-media">using special software</a>, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use <a href="https://www.caine-live.net/">CAINE</a> to copy data off the hard drive.
 </li>
   </ul>
-  
+
+<a id="Windows-Backups"></a>  
   <h3>Backups</h3>
 <p>
   These days the hackers hold your data hostage - they encrypt it and demand a ransom from you to get your data released - this is commonly known as "ransomware". There are various service providers for this (Crashplan and Dropbox) but I don't  use them. Best thing to do is to keep all your software CDs in a safe place (if there are any discs, that is) and keep spare copies of your data, possibly on recordable CD or DVD or USB thumb drive /flash drive / memory stick or external USB hard drives.
 </p>
   
-  <h3>Other Utilities</h3>
+<a id="Windows-Other-Utilities"></a>
+<h3>Other Utilities</h3>
   <ul>    
    <li><a href="https://reactos.org/">ReactOS</a> a free, open-source Windows replacement. Tries to run Windows applications and device drivers.</li>
    <li><a href="https://learn.microsoft.com/en-gb/sysinternals/">sysinternals</a> by
@@ -53,6 +87,7 @@ If your Windows computer is heavily infected with viruses, search on <a href="ht
    <li><a href="https://windirstat.net/">WinDirStat - find out where all your drive space is being used up</a></li>
   </ul>
   
+  <a id="DOS-and-Utilities"></a>
   <h3>DOS and Utilities</h3>
   <ul>    
    <li>Guide to <a href="https://www.thomas-krenn.com/en/wiki/Creating_a_Bootable_DOS_USB_Stick">creating a bootable DOS USB stick</a> (Thomas Krenn).</li>
@@ -62,12 +97,13 @@ If your Windows computer is heavily infected with viruses, search on <a href="ht
 The GNU people have created a page about free programs and the commercial programs they aim to replace right <a href="https://directory.fsf.org/wiki/Collection:Windows">here</a>.
 </p>
 
+<a id="Linux"></a>
 <h2>Linux</h2>
   <p>For information about different Linux or BSD operating systems, see <a href="https://distrowatch.com">DistroWatch</a>.
   </p>
   
 <p>
-  With Linux (I use mainly <a href="https://ubuntu.com/">Ubuntu (Debian based)</a> - or <a href="https://www.debian.org/">Debian Linux</a> or <a href="https://lubuntu.me/">lubuntu</a> on older computers and someone I know really likes <a href="https://peppermintos.com/">Peppermint Linux (Debian based)</a> OR <a href="https://antixlinux.com/">Antix Linux (Debian based)</a>), the challenge is knowing which packages your free software is in.
+  With Linux (I use mainly <a href="https://ubuntu.com/">Ubuntu (Debian based)</a> releases from <a href="https://releases.ubuntu.com/">here</a> - or <a href="https://www.debian.org/">Debian Linux</a> or <a href="https://lubuntu.me/">lubuntu</a> on older computers and someone I know really likes <a href="https://peppermintos.com/">Peppermint Linux (Debian based)</a> OR <a href="https://antixlinux.com/">Antix Linux (Debian based)</a>), the challenge is knowing which packages your free software is in.
 </p>
 
 <p>
@@ -84,6 +120,7 @@ The GNU people have created a page about free programs and the commercial progra
   With Linux, there are at least two databases about packages. The package database on your computer tracks what is installed and which version it is. The databases on the server(s) track information about the packages held on the server. The use of a Package Manager in Linux is particularly helpful as, in Ubuntu's case, the software is installed from servers holding repositories of free software. A package manager can also acts as a kind of safe "Google for packages to install". If you want some software to accomplish a particular task, run your Package Manager and take things from there. Also, because of the databases mentioned previously, a "Software Updater" programme can run every so often and tell the user about newer releases of currently installed software.
 </p>
 
+<a id="Ubuntu-Linux-Pages"></a>
 <h3>Ubuntu Linux specific pages</h3>
 <ul>
   <li><a href="https://www.ubuntu.com/desktop">Official Ubuntu site for downloading and documentation.</a></li>
@@ -95,12 +132,35 @@ The GNU people have created a page about free programs and the commercial progra
   <li><a href="https://extensions.gnome.org">Extensions for the GNOME desktop.</a></li>
 </ul>
 
+<a id="Other-Linux-Specific-Pages"></a>
 <h3>Other Linux specific documentation pages</h3>
 <ul>
   <li><a href="https://wiki.archlinux.org/title/General_recommendations">Arch Linux documentation.</a></li>
 </ul>
 
+<a id="Thinking-of-moving-from-Windows-to-Linux"></a>
+<h3>If you are thinking of moving from Windows to Linux</h3>
+<ol>
+  <li>Get expert help. If you don't know any local Linux experts, try attending meetings of a local Linux User Group (LUG) and asking questions.</li>
+  <li>Before you move your system from Windows to Linux, get some real experience of using Linux</li>
+  <li>Always back up your data before installing an operating system or re-partitioning your computer's drive</li>
+  <li>If you ABSOLUTLEY must use Windows specific software and cannot spare time to find a Linux solution, don't bother changing.</li>
+  <li>At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing.</li>
+  <li>If you can't handle change, don't move from Windows to Linux. Moving takes effort.</li>
+  <li>Install LibreOffice on Windows. See if you can use it instead of Microsoft Windows. You'll have to use LibreOffice if you move to Linux</li>
+</ol>
 
+<a id="Moving-from-Windows-to-Linux"></a>
+<h3>Moving someone from Windows to Linux (experts only)</h3>
+<ol>
+  <li>Run some tutorial sessions so the new user gets experience of using Linux and can make an informed choice about moving to Linux.</li>
+  <li>Check for compatibility - on the soon-to-be Linux computer, boot it using a Linux Live USB memory stick to see how well it copes with Linux.</li>
+  <li>Be prepared to act as their technical support for some time to come. This includes configuring the computer and generally tweaking the operating system and generally helping out.</li>
+  <li>There are some projects such as <a href="https://www.winehq.org">WINE</a> which is a compatibility layer for running Windows software on Linux etc systems.</li>
+</ol>
+
+
+<a id="Frugal-Linuxes"></a>
 <h3>Frugal Linuxes</h3>
 <ul>
   <li>Alan, another refurbisher of unwanted systems, likes to use <a href="https://antixlinux.com/">antiX Linux</a> on his old systems, something I haven't experimented with...</li>
@@ -115,6 +175,7 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
   
 </p>
 
+<a id="Heavy-Weight-RPM-Linuxes"></a>
 <h3>Heavy-weight RPM-based Linuxes</h3>
 <ul>
   <li><a href="https://www.opensuse.org/">openSUSE</a></li>
@@ -122,6 +183,7 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
   <li><a href="https://almalinux.org/">AlmaLinux - currently 1:1 binary compatible with Red Hat Enterprise Linux</a></li>
 </ul>
 
+<a id="Linux-on-Apple-hardware"></a>
 <h3>Linux on Apple hardware</h3>
 <p>I don't use Apple hardware but if I see any useful things online about running Linux on Apple hardware, I'll cite them here:</p>
 <ul>
@@ -141,10 +203,12 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
    <li>Use <a href="https://www.ventoy.net/en/index.html">Ventoy</a> create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.</li> 
 </ul>
 
-<h3>Linux for phones and other mobile devices (e.g. tablets?)</h3>
+<a id="linux-for-phones-and-other-mobile-devices"></a>
+<h2>Linux for phones and other mobile devices (e.g. tablets?)</h2>
 <p>It's early days yet and I haven't tried this myself. However, <a href="https://postmarketos.org/">postmarketos</a> might be of interest.
 </p>
 
+<a id="free-software-that-runs-on-both-windows-and-linux"></a>
 <h2>Free Software that runs on both Windows and Linux</h2>
 <ul>
   
@@ -174,7 +238,8 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
   
 </ul> <!-- End of Free Software for both Windows and Linux -->
   
-<h2>Linux Live CD/DVDs, Repair etc Linux distros (technical stuff)</h2>
+<a id="Linux-live-CDs-DVDs-isos"></a>
+<h2>Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)</h2>
 <p>
   Some Linuxes come on "live CDs". This means that you can start a computer with the CD/DVD inside it and have it run Linux without modifying your hard disc. A live CD/DVD is stored on a server with a filename ending in ".iso". In order to use it, you or a friend need to download the iso, <a href="#creating-bootable-installation-media">use special software</a> to put it onto recordable CD or DVD, and follow the instructions. Use <a href="https://rufus.ie/en/">Rufus</a> create bootable USB flash drives (nice GUI etc) in Windows. To put multiple isos on the same USB memory stick use <a href="https://www.ventoy.net/en/index.html">Ventoy</a>.
 </p>
@@ -205,36 +270,47 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
 
 </ul> <!-- End of Linux Live CD/DVDs (technical stuff) -->
 
-<h2>Linux Software I have played with on Linux</h2>
+<a id="Linux-software-I-have-used-on-Linux"></a>
+<h2>Linux Software I have used on Linux</h2>
 <p>This can come in a number of formats. Some as packages (aka .deb files), some as Snaps. There is a debate over which is the better format. Here is a mixed collection of software that I like to use on a day to day basis:-</p>
 <ul>
   <li>LibreOffice - office package already mentioned previously on this page.</li>
   <li>emacs - a text editor with a LISP programming engine (I am still getting to grips with emacs Lisp)</li>
   <li>bash - a command line / scripting language that is built into Ubuntu Linux</li>
   <li>Firefox - web browser</li>
+</ul>
+
+<a id="Linux-software-I-havent-used"></a>
+<h2>Linux Software I haven't used</h2>
+<ul>
+  <li><a href="https://waydro.id/">Waydroid - running Android apps on Linux.</a></li>
   <li>Stuff to try: usbguard - dealing with rogue USB devices , usbview - graphical representation of USB devices plugged in, fuse-emulator-gtk - Specrum Emulator, <a href="https://www.kicad.org/about/kicad/">KiCAD - Electronic Design Automation</a>
   </li>
 </ul>
 
+
+<a id="linux-courses"></a>
 <h2>Linux courses</h2>
 <ul>
   <li><a href="https://www.geeksforgeeks.org/best-linux-online-courses/">Best Linux online courses (geeksforgeeks.org).</a></li>
   <li><a href="https://linuxupskillchallenge.org/">linuxupskillchallenge.org</a></li>
 </ul>
 
+<a id="Linux-server-stuff"></a>
 <h2>Linux server stuff - untried</h2>
 <ul>
   <li><a href="https://mailserverguru.com/install-nextcloud-on-ubuntu-22-04-lts/">Install NextCloud on Ubuntu 22.04 LTS.</a></li>
   <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04">How to install and configure Nextcloud on Ubuntu 20.04.</a></li>
 </ul>
 
+<a id="Notes-on-markdown-and-HTML"></a>
 <h2>Notes on markdown and HTML</h2>
 <ul>
   <li><a href="https://www.markdownguide.org/getting-started/">Getting started with Markdown</a></li>
   <li><a href="https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html">Ubuntu - html-to-markdown uses the html2markdown command</a></li>
 </ul>
 
- Created : Years Ago. Last update : 17th June 2025
+ Created : Years Ago. Last update : 22nd June 2025
 <a href="https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-software.md">(This page online)</a>
 <a href="http://validator.w3.org/nu/#file">Validating a web page.</a>
 

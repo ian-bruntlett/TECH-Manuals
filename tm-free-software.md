@@ -16,6 +16,31 @@ Way.](http://www.catb.org/esr/faqs/smart-questions.html)
 The [Awesome Project](https://github.com/sindresorhus/awesome) is an attempt
 to classify just about everything. Take a look...
 
+Links within this page.
+
+  * Windows - Free Software
+    * Security software.
+    * Backups.
+    * Other utilities.
+    * DOS and utilities.
+  * Linux
+    * Ubuntu Linux Specific pages
+    * Other Linux specific pages
+    * If you are thinking of moving from Windows to Linux.
+    * Moving someone from Windows to Linux (experts only)
+    * Frugal Linuxes.
+    * Heavy-weight RPM-based Linuxes
+    * Linux on Apple hardware
+  * Creating bootable installation media for downloaded iso files
+  * Linux for phones and other mobile devices (e.g. tablets?)
+  * Free Software that runs on both Windows and Linux
+  * Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)
+  * Linux Software I have used on Linux
+  * Linux Software I haven't used
+  * Linux courses
+  * Linux server stuff - untried
+  * Notes on markdown and HTML
+
 ## Windows - Free Software
 
 ### Security Software
@@ -59,9 +84,10 @@ programs they aim to replace right
 For information about different Linux or BSD operating systems, see
 [DistroWatch](https://distrowatch.com).
 
-With Linux (I use mainly [Ubuntu (Debian based)](https://ubuntu.com/) \- or
-[Debian Linux](https://www.debian.org/) or [lubuntu](https://lubuntu.me/) on
-older computers and someone I know really likes [Peppermint Linux (Debian
+With Linux (I use mainly [Ubuntu (Debian based)](https://ubuntu.com/) releases
+from [here](https://releases.ubuntu.com/) \- or [Debian
+Linux](https://www.debian.org/) or [lubuntu](https://lubuntu.me/) on older
+computers and someone I know really likes [Peppermint Linux (Debian
 based)](https://peppermintos.com/) OR [Antix Linux (Debian
 based)](https://antixlinux.com/)), the challenge is knowing which packages
 your free software is in.
@@ -104,6 +130,23 @@ software.
 
   * [Arch Linux documentation.](https://wiki.archlinux.org/title/General_recommendations)
 
+### If you are thinking of moving from Windows to Linux
+
+  1. Get expert help. If you don't know any local Linux experts, try attending meetings of a local Linux User Group (LUG) and asking questions.
+  2. Before you move your system from Windows to Linux, get some real experience of using Linux
+  3. Always back up your data before installing an operating system or re-partitioning your computer's drive
+  4. If you ABSOLUTLEY must use Windows specific software and cannot spare time to find a Linux solution, don't bother changing.
+  5. At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing.
+  6. If you can't handle change, don't move from Windows to Linux. Moving takes effort.
+  7. Install LibreOffice on Windows. See if you can use it instead of Microsoft Windows. You'll have to use LibreOffice if you move to Linux
+
+### Moving someone from Windows to Linux (experts only)
+
+  1. Run some tutorial sessions so the new user gets experience of using Linux and can make an informed choice about moving to Linux.
+  2. Check for compatibility - on the soon-to-be Linux computer, boot it using a Linux Live USB memory stick to see how well it copes with Linux.
+  3. Be prepared to act as their technical support for some time to come. This includes configuring the computer and generally tweaking the operating system and generally helping out.
+  4. There are some projects such as [WINE](https://www.winehq.org) which is a compatibility layer for running Windows software on Linux etc systems.
+
 ### Frugal Linuxes
 
   * Alan, another refurbisher of unwanted systems, likes to use [antiX Linux](https://antixlinux.com/) on his old systems, something I haven't experimented with...
@@ -133,7 +176,7 @@ Linux on Apple hardware, I'll cite them here:
   * Use [Rufus](https://rufus.ie/en/) create a bootable USB flash drives (nice GUI etc) in Windows using a single iso file.
   * Use [Ventoy](https://www.ventoy.net/en/index.html) create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.
 
-### Linux for phones and other mobile devices (e.g. tablets?)
+## Linux for phones and other mobile devices (e.g. tablets?)
 
 It's early days yet and I haven't tried this myself. However,
 [postmarketos](https://postmarketos.org/) might be of interest.
@@ -150,7 +193,7 @@ It's early days yet and I haven't tried this myself. However,
   * To create a USB memory stick to boot a variety of ISO files, see [Ventoy](https://www.ventoy.net/en/index.html) listed under Creating bootable installation media.
   * To display technical info about your system see [CPU-Z (for Windows)](https://www.cpuid.com/softwares/cpu-z.html) or CPU-X (for Linux) 
 
-## Linux Live CD/DVDs, Repair etc Linux distros (technical stuff)
+## Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)
 
 Some Linuxes come on "live CDs". This means that you can start a computer with
 the CD/DVD inside it and have it run Linux without modifying your hard disc. A
@@ -174,7 +217,7 @@ in Windows. To put multiple isos on the same USB memory stick use
   * [SystemRescue CD](https://www.system-rescue.org/) is a collection of many Linux packages. It is intended for use when you need to fix a problem on your computer.
   * [Ultimate Boot CD - a lot of formerly floppy disk only utilities. There is further info on the website](https://www.ultimatebootcd.com/)
 
-## Linux Software I have played with on Linux
+## Linux Software I have used on Linux
 
 This can come in a number of formats. Some as packages (aka .deb files), some
 as Snaps. There is a debate over which is the better format. Here is a mixed
@@ -184,6 +227,10 @@ collection of software that I like to use on a day to day basis:-
   * emacs - a text editor with a LISP programming engine (I am still getting to grips with emacs Lisp)
   * bash - a command line / scripting language that is built into Ubuntu Linux
   * Firefox - web browser
+
+## Linux Software I haven't used
+
+  * [Waydroid - running Android apps on Linux.](https://waydro.id/)
   * Stuff to try: usbguard - dealing with rogue USB devices , usbview - graphical representation of USB devices plugged in, fuse-emulator-gtk - Specrum Emulator, [KiCAD - Electronic Design Automation](https://www.kicad.org/about/kicad/)
 
 ## Linux courses
@@ -201,7 +248,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 17th June 2025 [(This page
+Created : Years Ago. Last update : 22nd June 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
