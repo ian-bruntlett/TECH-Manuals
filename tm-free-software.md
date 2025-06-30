@@ -16,7 +16,7 @@ Way.](http://www.catb.org/esr/faqs/smart-questions.html)
 The [Awesome Project](https://github.com/sindresorhus/awesome) is an attempt
 to classify just about everything. Take a look...
 
-Links within this page.
+Subjects within this page.
 
   * Windows - Free Software
     * Security software.
@@ -38,6 +38,7 @@ Links within this page.
   * Linux Software I have used on Linux
   * Linux Software I haven't used
   * Linux courses
+  * Learn Linux through games (Untested)
   * Linux server stuff - untried
   * Notes on markdown and HTML
 
@@ -121,6 +122,7 @@ software.
   * [Official Ubuntu site for downloading and documentation.](https://www.ubuntu.com/desktop)
   * [Official Ubuntu page for installing Ubuntu Desktop.](https://ubuntu.com/tutorials/install-ubuntu-desktop#0)
   * [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
+  * [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
   * [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
   * [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
   * [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
@@ -128,17 +130,19 @@ software.
 
 ### Other Linux specific documentation pages
 
+  * [Advanced Commands for Linux Users (Rocky Linux)](https://docs.rockylinux.org/books/admin_guide/04-advanced-commands/)
+  * [The Linux Command Line (Internet Edition)](https://linuxcommand.org/tlcl.php)
   * [Arch Linux documentation.](https://wiki.archlinux.org/title/General_recommendations)
 
 ### If you are thinking of moving from Windows to Linux
 
   1. Get expert help. If you don't know any local Linux experts, try attending meetings of a local Linux User Group (LUG) and asking questions.
-  2. Before you move your system from Windows to Linux, get some real experience of using Linux
-  3. Always back up your data before installing an operating system or re-partitioning your computer's drive
-  4. If you ABSOLUTLEY must use Windows specific software and cannot spare time to find a Linux solution, don't bother changing.
-  5. At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing.
+  2. Before you move your system from Windows to Linux, get some real experience of using Linux.
+  3. Always back up your data before installing an operating system or re-partitioning your computer's drive.
+  4. If you ABSOLUTELY must use Windows specific software and cannot spare time to find a Linux solution, don't bother changing.
+  5. At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing if you can only use them.
   6. If you can't handle change, don't move from Windows to Linux. Moving takes effort.
-  7. Install LibreOffice on Windows. See if you can use it instead of Microsoft Windows. You'll have to use LibreOffice if you move to Linux
+  7. Install LibreOffice on Windows. See if you can use it instead of Microsoft Windows. You'll have to use LibreOffice if you move to Linux.
 
 ### Moving someone from Windows to Linux (experts only)
 
@@ -238,6 +242,16 @@ collection of software that I like to use on a day to day basis:-
   * [Best Linux online courses (geeksforgeeks.org).](https://www.geeksforgeeks.org/best-linux-online-courses/)
   * [linuxupskillchallenge.org](https://linuxupskillchallenge.org/)
 
+## Learn Linux through games (Untested)
+
+  * [Article from www.howtogeek.com](https://www.howtogeek.com/hone-your-linux-skills-with-these-free-games/)
+  * [OverTheWire - collection of wargames](https://overthewire.org/wargames/)
+  * [terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
+  * [vim adventures](https://vim-adventures.com/)
+  * [clmystery](https://github.com/veltman/clmystery)
+  * [bashcrawl](http://gitlab.com/slackermedia/bashcrawl)
+  * [cmdchallenge](https://cmdchallenge.com/#/copy_file)
+
 ## Linux server stuff - untried
 
   * [Install NextCloud on Ubuntu 22.04 LTS.](https://mailserverguru.com/install-nextcloud-on-ubuntu-22-04-lts/)
@@ -248,7 +262,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 22nd June 2025 [(This page
+Created : Years Ago. Last update : 30th June 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
