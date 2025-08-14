@@ -18,29 +18,29 @@ to classify just about everything. Take a look...
 
 Subjects within this page.
 
-  * Windows - Free Software
-    * Security software.
-    * Backups.
-    * Other utilities.
-    * DOS and utilities.
-  * Linux
-    * Ubuntu Linux Specific pages
-    * Other Linux specific pages
-    * If you are thinking of moving from Windows to Linux.
-    * Moving someone from Windows to Linux (experts only)
-    * Frugal Linuxes.
-    * Heavy-weight RPM-based Linuxes
-    * Linux on Apple hardware
-  * Creating bootable installation media for downloaded iso files
-  * Linux for phones and other mobile devices (e.g. tablets?)
-  * Free Software that runs on both Windows and Linux
-  * Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)
-  * Linux Software I have used on Linux
-  * Linux Software I haven't used
-  * Linux courses
-  * Learn Linux through games (Untested)
-  * Linux server stuff - untried
-  * Notes on markdown and HTML
+  * [Windows - Free Software](#Windows-Free-Software)
+    * [Security software.](#Windows-Security-Software)
+    * [Backups.](#Windows-Backups)
+    * [Other utilities.](#Windows-Other-Utilities)
+    * [DOS and utilities.](#DOS-and-Utilities)
+  * [Linux](#Linux)
+    * [Ubuntu Linux Specific pages](#Ubuntu-Linux-Pages)
+    * [Other Linux specific pages](#Other-Linux-Specific-Pages)
+    * [If you are thinking of moving from Windows to Linux.](#Thinking-of-moving-from-Windows-to-Linux)
+    * [Moving someone from Windows to Linux (experts only)](#Moving-from-Windows-to-Linux)
+    * [Frugal Linuxes.](#Frugal-Linuxes)
+    * [Heavy-weight RPM-based Linuxes](#Heavy-Weight-RPM-Linuxes)
+    * [Linux on Apple hardware](#Linux-on-Apple-hardware)
+  * [Creating bootable installation media for downloaded iso files](#creating-bootable-installation-media)
+  * [Linux for phones and other mobile devices (e.g. tablets?)](#linux-for-phones-and-other-mobile-devices)
+  * [Free Software that runs on both Windows and Linux](#free-software-that-runs-on-both-windows-and-linux)
+  * [Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)](#Linux-live-CDs-DVDs-isos)
+  * [Linux Software I have used on Linux](#Linux-software-I-have-used-on-Linux)
+  * [Linux Software I haven't used](#Linux-software-I-havent-used)
+  * [Linux courses](#linux-courses)
+  * [Learn Linux through games (Untested)](#learn-linux-through-games)
+  * [Linux server stuff - untried](#Linux-server-stuff)
+  * [Notes on markdown and HTML](#Notes-on-markdown-and-HTML)
 
 ## Windows - Free Software
 
@@ -48,7 +48,7 @@ Subjects within this page.
 
   * For anti-virus support: Use Windows Defender - it comes free with modern versions of Windows.
   * For anti-malware support. Use <https://www.malwarebytes.com/>. The free version has to be run manually to work. The paid for version is continually running, checking your computer is OK.
-  * If your Windows computer is heavily infected with viruses, search on [https://www.microsoft.com/](https://www.microsoft.com) and search for "Windows Defender Offline" where you can download an iso, record it to CD-R using special software, and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use [CAINE](https://www.caine-live.net/) to copy data off the hard drive. 
+  * If your Windows computer is heavily infected with viruses, search on [https://www.microsoft.com/](https://www.microsoft.com) and search for "Windows Defender Offline" where you can download an iso, record it to CD-R [using special software](#creating-bootable-installation-media), and then use that to boot your computer and remove rootkits and other sneaky nasties. You can possibly use [CAINE](https://www.caine-live.net/) to copy data off the hard drive. 
 
 ### Backups
 
@@ -140,7 +140,7 @@ software.
   2. Before you move your system from Windows to Linux, get some real experience of using Linux.
   3. Always back up your data before installing an operating system or re-partitioning your computer's drive.
   4. If you ABSOLUTELY must use Windows specific software and cannot spare time to find a Linux solution, don't bother changing.
-  5. At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing if you can only use them.
+  5. At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing if you can only use them. However, for other pieces of Windows software, the [alternativeto.net](https://alternativeto.net/) website might find a suitable replacement for you.
   6. If you can't handle change, don't move from Windows to Linux. Moving takes effort.
   7. Install LibreOffice on Windows. See if you can use it instead of Microsoft Windows. You'll have to use LibreOffice if you move to Linux.
 
@@ -175,10 +175,10 @@ Linux on Apple hardware, I'll cite them here:
 
 ## Creating bootable installation media for downloaded iso files
 
-  * Startup Disc Creator (aka usb-creator-gtk) - for creating install media for different releases of Linux etc. Brasero to record isos onto DVD or CD
-  * To create a USB memory stick to boot a single iso, use usb-creator-gtk. If you want multiple isos on a memory stick, see [Ventoy](https://www.ventoy.net/en/index.html). 
+  * For multiple isos on the same memory stick, download Ventoy from [sourceforge](https://sourceforge.net/projects/ventoy/) and visit [Ventoy's website](https://www.ventoy.net/en/index.html) for more details. You can create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.
+  * Startup Disc Creator (aka usb-creator-gtk) - for creating install media (USB memory stick or SD card) for different releases of Linux and other isos etc. 
+  * Use [Brasero](https://wiki.gnome.org/Apps/Brasero) to record isos onto DVD or CD.
   * Use [Rufus](https://rufus.ie/en/) create a bootable USB flash drives (nice GUI etc) in Windows using a single iso file.
-  * Use [Ventoy](https://www.ventoy.net/en/index.html) create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.
 
 ## Linux for phones and other mobile devices (e.g. tablets?)
 
@@ -194,7 +194,7 @@ It's early days yet and I haven't tried this myself. However,
   * For diagrams etc, a scalar graphics editor (that treats drawings as a series of individual shapes), see something like [Inkscape](https://inkscape.org/). Tutorials can be found [here](https://inkscape.org/learn/tutorials/). Or you can install the package "dia" to edit diagrams - see [here](https://wiki.gnome.org/Apps/Dia/) for more details. For mind maps, try the package "freemind" to install it on Linux, you can download it for Windows from [here](https://freemind.sourceforge.net/wiki/index.php/DownloadW).
   * For fun, free fonts see <https://www.google.com/fonts>.
   * To wipe confidential files and free up disk space, see [BleachBit](https://www.bleachbit.org/).
-  * To create a USB memory stick to boot a variety of ISO files, see [Ventoy](https://www.ventoy.net/en/index.html) listed under Creating bootable installation media.
+  * To create a USB memory stick to boot a variety of ISO files, see Ventoy listed under [Creating bootable installation media](#creating-bootable-installation-media).
   * To display technical info about your system see [CPU-Z (for Windows)](https://www.cpuid.com/softwares/cpu-z.html) or CPU-X (for Linux) 
 
 ## Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)
@@ -202,11 +202,12 @@ It's early days yet and I haven't tried this myself. However,
 Some Linuxes come on "live CDs". This means that you can start a computer with
 the CD/DVD inside it and have it run Linux without modifying your hard disc. A
 live CD/DVD is stored on a server with a filename ending in ".iso". In order
-to use it, you or a friend need to download the iso, use special software to
-put it onto recordable CD or DVD, and follow the instructions. Use
-[Rufus](https://rufus.ie/en/) create bootable USB flash drives (nice GUI etc)
-in Windows. To put multiple isos on the same USB memory stick use
-[Ventoy](https://www.ventoy.net/en/index.html).
+to use it, you or a friend need to download the iso, [use special
+software](#creating-bootable-installation-media) to put it onto recordable CD
+or DVD, and follow the instructions. Use [Rufus](https://rufus.ie/en/) create
+bootable USB flash drives (nice GUI etc) in Windows. To put multiple isos on
+the same USB memory stick see Ventoy listed under [Creating bootable
+installation media](#creating-bootable-installation-media).
 
   * [aban](https://aban.derobert.net/) is an open-source alternative to [dban](https://dban.org/). They will both wipe one or more hard discs attached to your computer.
   * [CAINE](https://www.caine-live.net/) is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.
@@ -262,7 +263,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update : 30th June 2025 [(This page
+Created : Years Ago. Last update 11th August 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
