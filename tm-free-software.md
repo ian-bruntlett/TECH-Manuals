@@ -16,6 +16,10 @@ Way.](http://www.catb.org/esr/faqs/smart-questions.html)
 The [Awesome Project](https://github.com/sindresorhus/awesome) is an attempt
 to classify just about everything. Take a look...
 
+The [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-
+secret-knowledge) \- aimed towards System and Network administrators, DevOps,
+Pentesters, and Security Researchers.. Take a look...
+
 Subjects within this page.
 
   * [Windows - Free Software](#Windows-Free-Software)
@@ -80,6 +84,14 @@ The GNU people have created a page about free programs and the commercial
 programs they aim to replace right
 [here](https://directory.fsf.org/wiki/Collection:Windows).
 
+## Windows on Linux
+
+There are various ways to run Windows apps on Linux. Not something I have
+experimented with so caveat emptor.
+
+  * [WinBoat](https://www.winboat.app/)
+  * [Wine - a compatibility layer for running Windows software on Linux.](https://www.winehq.org/)
+
 ## Linux
 
 For information about different Linux or BSD operating systems, see
@@ -143,6 +155,10 @@ software.
   5. At the time of writing, Adobe Software - Photoshop etc does not run on Linux so don't bother changing if you can only use them. However, for other pieces of Windows software, the [alternativeto.net](https://alternativeto.net/) website might find a suitable replacement for you.
   6. If you can't handle change, don't move from Windows to Linux. Moving takes effort.
   7. Install LibreOffice on Windows. See if you can use it instead of Microsoft Windows. You'll have to use LibreOffice if you move to Linux.
+  8. For image editing GIMP can replace Adobe Photoshop.
+  9. For vector graphics Inkscape can replace Adobe Illustrator.
+  10. For digital painting and drawing, Krita can replace Corel Painter or Photoshop.
+  11. For video editing, Shotcut can replace Adobe Premiere Elements.
 
 ### Moving someone from Windows to Linux (experts only)
 
@@ -179,6 +195,7 @@ Linux on Apple hardware, I'll cite them here:
   * Startup Disc Creator (aka usb-creator-gtk) - for creating install media (USB memory stick or SD card) for different releases of Linux and other isos etc. 
   * Use [Brasero](https://wiki.gnome.org/Apps/Brasero) to record isos onto DVD or CD.
   * Use [Rufus](https://rufus.ie/en/) create a bootable USB flash drives (nice GUI etc) in Windows using a single iso file.
+  * Apparently there is also another tool, [balenaEtcher](https://etcher.balena.io/) which apparently is easier for beginners.
 
 ## Linux for phones and other mobile devices (e.g. tablets?)
 
@@ -263,7 +280,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update 11th August 2025 [(This page
+Created : Years Ago. Last update 9th October 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
