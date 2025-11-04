@@ -39,6 +39,7 @@ To get information on local Linux User Groups in the UK, see this website - <a h
     <ul>
      <li><a href="#Ubuntu-Linux-Pages">Ubuntu Linux Specific pages</a></li>      
      <li><a href="#Other-Linux-Specific-Pages">Other Linux specific pages</a></li>      
+     <li><a href="#Linux-Command-Line">Linux Command Line</a></li>      
      <li><a href="#Thinking-of-moving-from-Windows-to-Linux">If you are thinking of moving from Windows to Linux.</a></li>      
      <li><a href="#Moving-from-Windows-to-Linux">Moving someone from Windows to Linux (experts only)</a></li>      
      <li><a href="#Frugal-Linuxes">Frugal Linuxes.</a></li>      
@@ -49,6 +50,8 @@ To get information on local Linux User Groups in the UK, see this website - <a h
   <li><a href="#creating-bootable-installation-media">Creating bootable installation media for downloaded iso files</a></li>
   <li><a href="#linux-for-phones-and-other-mobile-devices">Linux for phones and other mobile devices (e.g. tablets?)</a></li>
   <li><a href="#free-software-that-runs-on-both-windows-and-linux">Free Software that runs on both Windows and Linux</a></li>
+  <li><a href="#wiping-drives">Free Software that wipes drives (Linux OR CD or USB memory sticks)</a></li>
+  
   <li><a href="#Linux-live-CDs-DVDs-isos">Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)</a></li>
   <li><a href="#Linux-software-I-have-used-on-Linux">Linux Software I have used on Linux</a></li>
   <li><a href="#Linux-software-I-havent-used">Linux Software I haven't used</a></li>
@@ -122,6 +125,7 @@ The GNU people have created a page about free programs and the commercial progra
 <p>
   To install Ubuntu Linux, you'll need an .iso file, downloadable from <a href="http://releases.ubuntu.com/">here</a>.
   If you want to download a flavour of Ubuntu Linux, take a look here <a href="https://cdimages.ubuntu.com/">here</a>.
+  If you have problems accessing Canonical's Ubuntu servers , take a look here <a href="https://status.canonical.com/">here</a>.
   If you want a different Linux, take a look at <a href="https://distrowatch.com/">DistroWatch</a> to find out about other distributions of Linux.
 </p>
 
@@ -135,23 +139,32 @@ The GNU people have created a page about free programs and the commercial progra
 
 <a id="Ubuntu-Linux-Pages"></a>
 <h3>Ubuntu Linux specific pages</h3>
-<ul>
+<ol>  
   <li><a href="https://www.ubuntu.com/desktop">Official Ubuntu site for downloading and documentation.</a></li>
-  <li><a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#0">Official Ubuntu page for installing Ubuntu Desktop.</a></li>
+  <li><a href="https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/">Official Ubuntu page for installing Ubuntu Desktop.</a></li>
   <li><a href="https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started">Official Ubuntu page for trying Ubuntu before you install it..</a></li>
   <li><a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Linux Command Line for Beginners (Ubuntu)</a></li>
+  <li><a href="https://documentation.ubuntu.com/project/">Information on how the Ubuntu Project runs</a></li>  
   <li><a href="https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/">MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.</a></li>
   <li><a href="https://www.ubuntu.com/download/flavours">Guide to Ubuntu flavours - variations of the main Ubuntu.</a></li>
   <li><a href="https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/">Forbes: Understanding the many versions (flavours) of Ubuntu.</a></li>
   <li><a href="https://extensions.gnome.org">Extensions for the GNOME desktop.</a></li>
-</ul>
+</ol>
 
 <a id="Other-Linux-Specific-Pages"></a>
 <h3>Other Linux specific documentation pages</h3>
 <ul>
   <li><a href="https://docs.rockylinux.org/books/admin_guide/04-advanced-commands/">Advanced Commands for Linux Users (Rocky Linux)</a></li>
-  <li><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line (Internet Edition)</a></li>
   <li><a href="https://wiki.archlinux.org/title/General_recommendations">Arch Linux documentation.</a></li>
+</ul>
+
+<a id="Linux-Command-Line"></a>
+<h3>Linux Command line</h3>
+<ul>
+  <li><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line (Internet Edition)</a></li>
+  <li>apropos - search the manual page names and descriptions</li>
+  <li>cheat.sh - a wider range of topics (Ubuntu package is cht.sh)</li>
+  <li>tldr - prints cheat sheets for commands (Ubuntu package is tealeedr)</li>
 </ul>
 
 <a id="Thinking-of-moving-from-Windows-to-Linux"></a>
@@ -259,7 +272,18 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
 
   
 </ul> <!-- End of Free Software for both Windows and Linux -->
-  
+
+<a id="wiping-drives"></a>
+<h2>Wiping drives</h2>
+<p>
+These tools must be used with caution.
+</p>
+<ul>
+<li><a href="https://aban.derobert.net/">aban</a> is an open-source alternative to <a href="https://dban.org/">dban</a>. They will both wipe one or more hard discs attached to your computer and come as software to be booted from CD or USB memory stick.</li>
+<li><a href="https://github.com/martijnvanbrummelen/nwipe">nwipe</a> is a command to wipe attached drives. Available as a package on Ubuntu and other systems.</li>
+</ul>
+
+
 <a id="Linux-live-CDs-DVDs-isos"></a>
 <h2>Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)</h2>
 <p>
@@ -346,7 +370,7 @@ There is also <a href="http://forum.tinycorelinux.net/index.php">Tiny Core Linux
   <li><a href="https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html">Ubuntu - html-to-markdown uses the html2markdown command</a></li>
 </ul>
 
- Created : Years Ago. Last update 9th October 2025
+ Created : Years Ago. Last update 28th October 2025
 <a href="https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-software.md">(This page online)</a>
 <a href="http://validator.w3.org/nu/#file">Validating a web page.</a>
 

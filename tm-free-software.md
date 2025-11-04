@@ -30,6 +30,7 @@ Subjects within this page.
   * [Linux](#Linux)
     * [Ubuntu Linux Specific pages](#Ubuntu-Linux-Pages)
     * [Other Linux specific pages](#Other-Linux-Specific-Pages)
+    * [Linux Command Line](#Linux-Command-Line)
     * [If you are thinking of moving from Windows to Linux.](#Thinking-of-moving-from-Windows-to-Linux)
     * [Moving someone from Windows to Linux (experts only)](#Moving-from-Windows-to-Linux)
     * [Frugal Linuxes.](#Frugal-Linuxes)
@@ -38,6 +39,7 @@ Subjects within this page.
   * [Creating bootable installation media for downloaded iso files](#creating-bootable-installation-media)
   * [Linux for phones and other mobile devices (e.g. tablets?)](#linux-for-phones-and-other-mobile-devices)
   * [Free Software that runs on both Windows and Linux](#free-software-that-runs-on-both-windows-and-linux)
+  * [Free Software that wipes drives (Linux OR CD or USB memory sticks)](#wiping-drives)
   * [Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)](#Linux-live-CDs-DVDs-isos)
   * [Linux Software I have used on Linux](#Linux-software-I-have-used-on-Linux)
   * [Linux Software I haven't used](#Linux-software-I-havent-used)
@@ -108,8 +110,10 @@ your free software is in.
 To install Ubuntu Linux, you'll need an .iso file, downloadable from
 [here](http://releases.ubuntu.com/). If you want to download a flavour of
 Ubuntu Linux, take a look here [here](https://cdimages.ubuntu.com/). If you
-want a different Linux, take a look at [DistroWatch](https://distrowatch.com/)
-to find out about other distributions of Linux.
+have problems accessing Canonical's Ubuntu servers , take a look here
+[here](https://status.canonical.com/). If you want a different Linux, take a
+look at [DistroWatch](https://distrowatch.com/) to find out about other
+distributions of Linux.
 
 There are other flavours of Ubuntu Linux, for those who aren't keen on Ubuntu.
 The Register, in this
@@ -131,20 +135,27 @@ software.
 
 ### Ubuntu Linux specific pages
 
-  * [Official Ubuntu site for downloading and documentation.](https://www.ubuntu.com/desktop)
-  * [Official Ubuntu page for installing Ubuntu Desktop.](https://ubuntu.com/tutorials/install-ubuntu-desktop#0)
-  * [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
-  * [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-  * [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
-  * [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
-  * [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
-  * [Extensions for the GNOME desktop.](https://extensions.gnome.org)
+  1. [Official Ubuntu site for downloading and documentation.](https://www.ubuntu.com/desktop)
+  2. [Official Ubuntu page for installing Ubuntu Desktop.](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/)
+  3. [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
+  4. [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+  5. [Information on how the Ubuntu Project runs](https://documentation.ubuntu.com/project/)
+  6. [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
+  7. [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
+  8. [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
+  9. [Extensions for the GNOME desktop.](https://extensions.gnome.org)
 
 ### Other Linux specific documentation pages
 
   * [Advanced Commands for Linux Users (Rocky Linux)](https://docs.rockylinux.org/books/admin_guide/04-advanced-commands/)
-  * [The Linux Command Line (Internet Edition)](https://linuxcommand.org/tlcl.php)
   * [Arch Linux documentation.](https://wiki.archlinux.org/title/General_recommendations)
+
+### Linux Command line
+
+  * [The Linux Command Line (Internet Edition)](https://linuxcommand.org/tlcl.php)
+  * apropos - search the manual page names and descriptions
+  * cheat.sh - a wider range of topics (Ubuntu package is cht.sh)
+  * tldr - prints cheat sheets for commands (Ubuntu package is tealeedr)
 
 ### If you are thinking of moving from Windows to Linux
 
@@ -214,6 +225,13 @@ It's early days yet and I haven't tried this myself. However,
   * To create a USB memory stick to boot a variety of ISO files, see Ventoy listed under [Creating bootable installation media](#creating-bootable-installation-media).
   * To display technical info about your system see [CPU-Z (for Windows)](https://www.cpuid.com/softwares/cpu-z.html) or CPU-X (for Linux) 
 
+## Wiping drives
+
+These tools must be used with caution.
+
+  * [aban](https://aban.derobert.net/) is an open-source alternative to [dban](https://dban.org/). They will both wipe one or more hard discs attached to your computer and come as software to be booted from CD or USB memory stick.
+  * [nwipe](https://github.com/martijnvanbrummelen/nwipe) is a command to wipe attached drives. Available as a package on Ubuntu and other systems.
+
 ## Linux Live CD/DVDs/ISOs, Repair etc Linux distros (technical stuff)
 
 Some Linuxes come on "live CDs". This means that you can start a computer with
@@ -280,7 +298,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update 9th October 2025 [(This page
+Created : Years Ago. Last update 28th October 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
