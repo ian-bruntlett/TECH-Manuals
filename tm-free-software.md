@@ -20,6 +20,10 @@ The [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-
 secret-knowledge) \- aimed towards System and Network administrators, DevOps,
 Pentesters, and Security Researchers.. Take a look...
 
+The [M.I.T. Open CourseWare site](https://ocw.mit.edu/pages/get-started/) free
+education - lecctures and books. [(I.T. stuff
+here).](https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&s=-runs.best_start_date)
+
 Subjects within this page.
 
   * [Windows - Free Software](#Windows-Free-Software)
@@ -28,6 +32,7 @@ Subjects within this page.
     * [Other utilities.](#Windows-Other-Utilities)
     * [DOS and utilities.](#DOS-and-Utilities)
   * [Linux](#Linux)
+    * [Ubuntu Distributions](#Ubuntu-Distributions-Linux-Pages)
     * [Ubuntu Linux Specific pages](#Ubuntu-Linux-Pages)
     * [Other Linux specific pages](#Other-Linux-Specific-Pages)
     * [Linux Command Line](#Linux-Command-Line)
@@ -36,7 +41,7 @@ Subjects within this page.
     * [Frugal Linuxes.](#Frugal-Linuxes)
     * [Heavy-weight RPM-based Linuxes](#Heavy-Weight-RPM-Linuxes)
     * [Linux on Apple hardware](#Linux-on-Apple-hardware)
-  * [Creating bootable installation media for downloaded iso files](#creating-bootable-installation-media)
+  * [Creating bootable installation media (e.g. USB memory sticks) for downloaded iso files](#creating-bootable-installation-media)
   * [Linux for phones and other mobile devices (e.g. tablets?)](#linux-for-phones-and-other-mobile-devices)
   * [Free Software that runs on both Windows and Linux](#free-software-that-runs-on-both-windows-and-linux)
   * [Free Software that wipes drives (Linux OR CD or USB memory sticks)](#wiping-drives)
@@ -121,6 +126,13 @@ The Register, in this
 discusses [Linux Lite](https://www.linuxliteos.com/) which doesn't require as
 much memory as Ubuntu.
 
+### Ubuntu Linux variants (aka Distributions or Distros)
+
+  1. [lubuntu](https://lubuntu.me/)
+  2. [ubuntu](https://ubuntu.com/) the original flavour
+  3. [ubuntu studio](https://ubuntustudio.org/) used for audio, graphics, photography, video 
+  4. [Xubuntu](https://xubuntu.org/) \- uses Xfce, a lighterweight desktop environment
+
 With Linux, there are at least two databases about packages. The package
 database on your computer tracks what is installed and which version it is.
 The databases on the server(s) track information about the packages held on
@@ -136,14 +148,16 @@ software.
 ### Ubuntu Linux specific pages
 
   1. [Official Ubuntu site for downloading and documentation.](https://www.ubuntu.com/desktop)
-  2. [Official Ubuntu page for installing Ubuntu Desktop.](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/)
-  3. [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
-  4. [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-  5. [Information on how the Ubuntu Project runs](https://documentation.ubuntu.com/project/)
-  6. [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
-  7. [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
-  8. [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
-  9. [Extensions for the GNOME desktop.](https://extensions.gnome.org)
+  2. [Official Ubuntu Security Guide.](https://documentation.ubuntu.com/security/compliance/usg/)
+  3. [Official Ubuntu page for installing Ubuntu Desktop.](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/)
+  4. [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
+  5. [How to download all required Ubuntu drivers - see software-properties-gtk](https://askubuntu.com/questions/543325/how-to-download-all-required-ubuntu-drivers)
+  6. [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+  7. [Information on how the Ubuntu Project runs](https://documentation.ubuntu.com/project/)
+  8. [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
+  9. [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
+  10. [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
+  11. [Extensions for the GNOME desktop.](https://extensions.gnome.org)
 
 ### Other Linux specific documentation pages
 
@@ -183,7 +197,7 @@ software.
   * Alan, another refurbisher of unwanted systems, likes to use [antiX Linux](https://antixlinux.com/) on his old systems, something I haven't experimented with...
   * Useful on slow x86_64 systems is [ArchBang](https://archbang.org/), a live distro.
   * I have experimented with Xubuntu [xubuntu](https://xubuntu.org/) \- gives Ubuntu with a lighter-weight desktop environment.
-  * Something that is intended for really small systems (but quite demanding to install) is [Alpine Linux](https://www.alpinelinux.org/), with documentation [here](https://docs.alpinelinux.org/) and a [wiki here](https://wiki.alpinelinux.org/wiki/Main_Page).
+  * Something that is intended for really small systems and apparently still supports 32-bit systems (but quite demanding to install) is [Alpine Linux](https://www.alpinelinux.org/), with documentation [here](https://docs.alpinelinux.org/) and a [wiki here](https://wiki.alpinelinux.org/wiki/Main_Page).
   * There is also [Tiny Core Linux](http://forum.tinycorelinux.net/index.php) (core is text only, TinyCore has a GUI and CorePlus has extra apps). The book, "Into the core - A look at Tiny Core Linux" is available [online](http://tinycorelinux.net/book.html). 
 
 ### Heavy-weight RPM-based Linuxes
@@ -207,6 +221,7 @@ Linux on Apple hardware, I'll cite them here:
   * Use [Brasero](https://wiki.gnome.org/Apps/Brasero) to record isos onto DVD or CD.
   * Use [Rufus](https://rufus.ie/en/) create a bootable USB flash drives (nice GUI etc) in Windows using a single iso file.
   * Apparently there is also another tool, [balenaEtcher](https://etcher.balena.io/) which apparently is easier for beginners.
+  * [glim](https://github.com/thias/glim) is a tool that is a bit like Ventoy but it has the limitation of having a 4GiB file limit.
 
 ## Linux for phones and other mobile devices (e.g. tablets?)
 
@@ -298,7 +313,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update 28th October 2025 [(This page
+Created : Years Ago. Last update 21st December 2025 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
