@@ -1,12 +1,35 @@
 # Platforms
 
-Platforms within this page Android Chromium FreeDOS etc Linux MINIX
-Miscellaneous Miscellaneous Magazines Raspberry Pi Stuff Sinclair QL Sinclair
-Spectrum Next Unix Windows
+Platforms within this page [Amiga](#platform-amiga) [Android](#platform-
+android) [Chromium](#platform-chromium) Emulators ( [hardware](#platform-
+emulators-hardware) , [software ](#platform-emulators-software) ) , [FreeDOS
+etc](#platform-freedos) [Linux](#platform-linux) [MINIX](#platform-minix)
+[Miscellaneous](#platform-miscellaneous) [Miscellaneous Magazines](#platform-
+miscellaneous-magazines) [Raspberry Pi Stuff](#platform-raspberry-pi-stuff)
+[Sinclair QL](#platform-sinclair-ql) [Sinclair Spectrum](#platform-sinclair-
+spectrum) [Next](#platform-sinclair-spectrum-next) [Unix](#platform-unix)
+[Windows](#platform-windows)
 
-## Template
+## Platform independent.
 
-  * [Template](langs/).
+  * [RetroRevival - spare parts for old computers](https://retrorevivalshop.co.uk/)
+  * [Advice - retrocomputing on stackexchange.com](https://retrocomputing.stackexchange.com/).
+  * [z88dk - assembler and C compiler development kit for many Z80 based systems](https://z88dk.org/site/).
+
+## Emulators (hardware)
+
+  * [lotharek.pl](https://lotharek.pl/faq.php).
+
+## Emulators (software)
+
+  * [Retro Virtual Machine for Windows / Linux / MacOs](https://www.retrovirtualmachine.org/download/)
+  * [Zesarux - ZX Machines Emulator for UNIX based operating systems (and Windows), including all the Sinclair computers.](https://github.com/chernandezba/zesarux)
+  * [emu-land.net - lots of emulators](https://www.emu-land.net/en/computers/zx_spectrum/emuls/windows)
+
+## Amiga (Platform)
+
+  * [AROS - free recreation of AmigaOS (x86_64 only)](http://www.aros.org)
+  * [AROS article in The Register](https://www.theregister.com/2025/05/22/aros_live/)
 
 ## Android (Platform)
 
@@ -29,6 +52,7 @@ Spectrum Next Unix Windows
 
 ## FreeDOS etc...
 
+  * [Booting and using DOS from a USB memory stick](https://www.theregister.com/2025/04/26/dos_distraction_free_writing/)
   * [FreeDOS](http://www.freedos.org)
   * [FreeDOS wiki](http://wiki.freedos.org/wiki/index.php/Main_Page)
   * [List of commands and features of FreeCOM](http://www.skyfree.org/jpn/brainstorm/freecom/cmd.html)
@@ -45,6 +69,7 @@ Spectrum Next Unix Windows
     * [GLaBIOS](https://glabios.org/)
     * [coreboot](https://doc.coreboot.org/)
     * [Libreboot](https://libreboot.org/)
+  * [MS-DOS v1.25, v2.0, v4.0 source code on GitHub](https://github.com/microsoft/MS-DOS/tree/main)
 
 ## Linux
 
@@ -80,41 +105,50 @@ Spectrum Next Unix Windows
 
 ## Sinclair QL
 
-  * Dilwyn Jones Sinclair QL Pages 
-    * [main site](https://theqlforum.com/)
-    * [backup site](https://dilwyn.qlforum.co.uk/index.html)
-    * [QL Magazines Archive](https://dilwyn.theqlforum.com/mags/index.html) [offline](../old/QL/Magazines)
-    * [Downloads page](https://dilwyn.theqlforum.com/downloads.html)
-    * [Emulators page](https://dilwyn.theqlforum.com/emu/index.html)
-    * [Qubbesoft PD library](https://dilwyn.theqlforum.com/qubbe/)
-    * [The Library](https://dilwyn.theqlforum.com/thelib/index.html)
-    * [Assembler section](https://dilwyn.theqlforum.com/asm/index.html)
-    * QDOS / SMS Reference Manual [(offline)](../old/QL/QDOS_SMS%20Reference%20Guide%20v4.5.pdf). [(online)](https://dilwyn.theqlforum.com/docs/manuals/QDOS_SMS%20Reference%20Guide%20v4.5.pdf)
-    * [ROM images and some source code](https://dilwyn.theqlforum.com/qlrom/index.html)
-    * [Original QL Manual](https://dilwyn.theqlforum.com/docs/ebooks/olqlug/index.htm)
-    * [SMSQ/E Manual 1.06](https://dilwyn.theqlforum.com/docs/ebooks/smsqe/SMSQE_A4.htm)
+  * Dilwyn Jones Sinclair QL Pages (now moved to the Sinclair QL Preservation Project, old site was dilwyn.theqlforum.com) 
+    * [main site](https://www.sinclairql.net/djw/index.html)
+    * [QL Magazines Archive](https://www.sinclairql.net/djw/mags/index.html) [offline](../old/QL/Magazines)
+    * [Downloads page](https://www.sinclairql.net/djw/downloads.html)
+    * [Emulators page](https://www.sinclairql.net/djw/emu/index.html)
+    * [Qubbesoft PD library](https://www.sinclairql.net/djw/qubbe/index.html)
+    * [The Library](https://www.sinclairql.net/djw/thelib/index.html)
+    * [Assembler section](https://www.sinclairql.net/djw/asm/index.html)
+    * QDOS / SMS Reference Manual [(v4.5,offline)](../old/QL/QDOS_SMS%20Reference%20Guide%20v4.5.pdf). [(v4.9,offline)](../old/QL/SMSQL-Reference-Guidev4.9.pdf). [(online)](https://www.sinclairql.net/djw/docs/smsqegd2/index.html)
+    * [ROM images and some source code](https://www.sinclairql.net/djw/qlrom/index.html)
+    * [Original QL Manual](https://www.sinclairql.net/djw/docs/ebooks/olqlug/index.html)
+    * [SMSQ/E Manual 1.06](https://www.sinclairql.net/djw/docs/ebooks/smsqe/SMSQE_A4.htm)
+  * QL Operating System Software - ROMS 
+    * Minerva [Source Code](../old/QL/Minerva198-Source-By-Laurence-Reeves.zip) Manual [offline](../old/QL/MinMan4.pdf) [online](https://sinclairql.net/djw/docs/manuals/minerva_manual_11.pdf)
+    * [QL Bare metal diagnostic ROM](https://github.com/stephen-usher/Sinclair-QL-BareMetal-Diag-ROM) by Stephen USher et al
+  * QL Operating System Software or emulators - not on ROM 
+    * QL Emulator [QPC](https://www.kilgus.net/qpc/what/)
+  * Qjump Pointer Environment software (to use) 
+    * [My Qjump Pointer Environment article for QL World](../old/QL/my-stuff/QPE_Article.tar.gz)
+  * SuperBASIC toolkits (except Qjump Pointer Environment toolkits). 
+    * [QL Toolkit 2](../old/QL/QL-Toolkit-2.pdf)
+    * [Simon N. Goodwin related articles and software](http://simon.mooli.org.uk/) [QL Turbo Toolkit manual](https://www.sinclairql.net/djw/docs/ebooks/QL%20Turbo%20Toolkit%20User%20Manual%20-%20Simon%20N%20Goodwin.pdf)
+  * Qjump Pointer Environment software (development) 
+    * QPTR manual v5 [manual](../old/QL/QPTR-manual.pdf) [updates](../old/QL/QPTR-Updates.pdf)
+    * [QPTR manual, v6.03](../old/QL/QPTR603.pdf)
+    * [Config Level 1](../old/QL/Config_level_1.pdf)
+    * [QMON/JMON - debuggers originally by Tony Tebby, now distributed by Marcel Kilgus](https://www.kilgus.net/smsqe/qmon/)
+  * Languages for the Sinclair QL 
+    * Andrew Pennel - Assembly Language on the Sinclair QL [(accessed from SinclairQL.es)](https://sinclairql.speccy.org/) [(online)](https://sinclairql.speccy.org/archivo/docs/books/alpsql.pdf) [(offline)](../old/QL/Books/Assembly-Language-Programming-on-the-Sinclair-QL/alpsql.pdf)
+    * Norman Dunbar - Assembly Language Book [online](https://github.com/NormanDunbar/QLAssemblyLanguageBook/releases/tag/October-2020) [QL Assembly Language Book.](../old/QL/Norman-Dunbar/AssemblyLanguage.pdf) [Book Source Code.](../old/QL/Norman-Dunbar/QLAssemblyLanguageBook-October-2020.tar.gz)
+    * SBASIC/SuperBASIC Reference by Rich Mellor [4.0.2 (offline)](../old/QL/superbasic-manual-readthedocs-io-en-latest.pdf) [(online)](https://superbasic-manual.readthedocs.io/en/latest/index.html)
+    * [QLiberator User Manual](../old/QL/Q_Liberator-User-Manual.pdf)
+    * MY LISP by Daniel Fernandez Santos [MyLISP](https://github.com/dfernande132/MyLISP) [CAS (Computer Algebra System](https://github.com/dfernande132/MyLISP-CAS#mylisp-cas-english)
+  * Operating system references for the Sinclair QL 
+    * Norman Dunbar - QDOS Internals [online](https://github.com/NormanDunbar/QDOSinternals) [browseable](https://qdosmsq.dunbar-it.co.uk/) offline [zip](../old/QL/QDOSinternals-main.zip) [text](../old/QL/QDOSinternals-main)
+    * Andrew Pennel - QDOS Companion [(Github)](https://github.com/SinclairQL/QDOS-Companion) [ODT file](https://github.com/SinclairQL/QDOS-Companion/blob/main/QDOS_Companion.odt) [PDF file](https://github.com/SinclairQL/QDOS-Companion/blob/main/QDOS_Companion.pdf) offline [odt](../old/QL/Books/QDOS-Companion/QDOS_Companion.odt) [pdf](../old/QL/Books/QDOS-Companion/QDOS_Companion.pdf)
+    * [QL Technical Guide - Tebby & Karlin](../old/QL/qltm.pdf)
   * [sinclairql.net - the repository of the Sinclair QL Preservation Project](http://sinclairql.net/repository.html)
   * [QL is 30. 1984-2014](https://www.qlis30.org.uk/)
   * SMSQ/E [WikiPedia page](https://en.wikipedia.org/wiki/SMSQ/E) [Official Site](https://www.wlenerz.com/smsqe/) [kilgus.net SMSQE site with lots of Pointer Environment software](https://www.kilgus.net/smsqe/)
-  * QL Emulator [QPC](https://www.kilgus.net/qpc/what/)
-  * Norman Dunbar - Assembly Language Book [online](https://github.com/NormanDunbar/QLAssemblyLanguageBook/releases/tag/October-2020) [QL Assembly Language Book.](../old/QL/Norman-Dunbar/AssemblyLanguage.pdf) [Book Source Code.](../old/QL/Norman-Dunbar/QLAssemblyLanguageBook-October-2020.tar.gz)
-  * Norman Dunbar - QDOS Internals [online](https://github.com/NormanDunbar/QDOSinternals) [browseable](https://qdosmsq.dunbar-it.co.uk/) offline [zip](../old/QL/QDOSinternals-main.zip) [text](../old/QL/QDOSinternals-main)
-  * Andrew Pennel - QDOS Companion [(Github)](https://github.com/SinclairQL/QDOS-Companion) [ODT file](https://github.com/SinclairQL/QDOS-Companion/blob/main/QDOS_Companion.odt) [PDF file](https://github.com/SinclairQL/QDOS-Companion/blob/main/QDOS_Companion.pdf) offline [odt](../old/QL/QDOS-Companion/QDOS_Companion.odt) [pdf](../old/QL/QDOS-Companion/QDOS_Companion.pdf)
-  * [QL Technical Guide - Tebby & Karlin](../old/QL/qltm.pdf)
-  * SBASIC/SuperBASIC Reference by Rich Mellor [4.0.2 (offline)](../old/QL/superbasic-manual-readthedocs-io-en-latest.pdf) [(online)](https://superbasic-manual.readthedocs.io/en/latest/index.html)
-  * [QMON/JMON - debuggers originally by Tony Tebby, now distributed by Marcel Kilgus](https://www.kilgus.net/smsqe/qmon/)
   * QL Service Manual [(offline)](../old/QL/QL-Service-Manual.pdf) [(online)](https://www.sinclairql.net/srv/index.html). 
-  * QPTR manual v5 [manual](../old/QL/QPTR-manual.pdf) [updates](../old/QL/QPTR-Updates.pdf)
   * [Quanta](https://quanta.org.uk/) [Magazine Archive](https://quanta.org.uk/the-ql/magazine-archive-2/)
-  * [QPTR manual, v6.03](../old/QL/QPTR603.pdf)
-  * [Config Level 1](../old/QL/Config_level_1.pdf)
-  * [QLiberator User Manual](../old/QL/Q_Liberator-User-Manual.pdf)
-  * [QL Toolkit 2](../old/QL/QL-Toolkit-2.pdf)
-  * [Simon N. Goodwin related articles and software](http://simon.mooli.org.uk/)
   * [Sinclair Archaeology](../old/QL/Sinclair-Archeology.pdf)
-  * Minerva [Source Code](../old/QL/Minerva198-Source-By-Laurence-Reeves.zip) [Manual](../old/QL/MinMan4.pdf)
-  * QL Forum Issues (by Me) [1](../old/QL/my-stuff/forum1.zip) [2](../old/QL/my-stuff/forum2.zip) [3](../old/QL/my-stuff/forum3.zip)
-  * [My Qjump Pointer Environment article for QL World](../old/QL/my-stuff/QPE_Article.tar.gz)
+  * QL Forum Issues (by Me) [1](../old/QL/my-stuff/forum1.zip) [2](../old/QL/my-stuff/forum2.zip) [3](../old/QL/my-stuff/forum3.zip) [(online at Dilwyn Jones' QL Forum)](https://dilwyn.theqlforum.com/ezines/forum/index.html)
   * [Zexcel - Spectrum 48k/128k emulator for the extended environment](http://www.sinclairql.it/zxemulators.htm)
   * [The QL Chronology](https://www.sinclairql.net/chronology.html)
   * [QL Wiki](https://qlwiki.qlforum.co.uk/doku.php?id=start)
@@ -136,14 +170,27 @@ Spectrum Next Unix Windows
 
 ## [Sinclair ZX Spectrum Next - specnext.com](https://www.specnext.com/)
 
-  * specnext.com [blog](https://specnext.dev/blog/) . [Latest software](https://www.specnext.com/latestdistro) , [Manual (1st Edition)](https://www.specnext.com/zx-spectrum-next-user-manual-first-edition/)
-  * [Spectrum Next - Manual in colour](../old/Spectrum/ZX-Spectrum-Next-Manual-Color-ONLINE-Edition.pdf)
+  * About the next in general, 
+    * [Next Magazine](https://fusionretrobooks.com/collections/next-magazine)
+    * [Spectrum Next - spreadsheet of many Next things plus useful links](https://leonisx.itch.io/zx-spectrum-next-db)
+    * specnext.com [blog](https://specnext.dev/blog/) . [Latest software](https://www.specnext.com/latestdistro) , [Manual (1st Edition)](https://www.specnext.com/zx-spectrum-next-user-manual-first-edition/)
+    * [Spectrum Next - Manual in colour](../old/Spectrum/ZX-Spectrum-Next-Manual-Color-ONLINE-Edition.pdf)
+  * Software development tools 
+    * [NextBuild (GitHub page)](https://github.com/em00k/NextBuild) A suite of tools based on Boriel's ZX Basic Compiler targeting the ZX Spectrum Next
+    * [MyLISP](https://github.com/dfernande132/MyLISP_NEXT)
+    * [ZNC Compiler](https://taylorza.itch.io/znc-compiler)
+  * Software development guides etc 
+    * specnext.com Developer's Wiki [Main Page](https://wiki.specnext.dev/) [FAQ](https://wiki.specnext.dev/FAQ) [Development Tools](https://wiki.specnext.dev/Development_Tools) [Bibliography](https://wiki.specnext.dev/Bibliography) [Z80 Programming](https://wiki.specnext.dev/Z80_programming) [Z80 Extended Instruction Set](https://wiki.specnext.dev/Extended_Z80_instruction_set) [Emulators](https://wiki.specnext.dev/Emulators)
+    * [Advanced Programming of the ZX Spectrum Next](https://lemmings.info/advanced-programming-of-the-zx-spectrum-next/)
+    * ZX Spectrum Next Assembly Developer Guide [online](https://www.specnext.com/zx-spectrum-next-assembly-developer-book/) [GitHub page](https://github.com/tomaz/zx-next-dev-guide) [hard copy](https://www.lulu.com/shop/tomaz-kragelj/zx-spectrum-next-assembler-developer-guide/paperback/product-7d2y85.html) [offline](ZX-Spectrum-Next/zx-next-dev-guide-r3.pdf)
+    * Z80 Documentation by Zilog ( [offline](../old/Spectrum/um0080.pdf) , [online](https://www.zilog.com/docs/z80/um0080.pdf) ) 
+  * [cspect](https://mdf200.itch.io/cspect) \- emulator, mainly for development.
+  * [NEXTECH by Simon N. Goodwin - misc software tools](http://simon.mooli.org.uk/nextech/index.html)
+  * [zxnext.uk](https://zxnext.uk/) \- miscellaneous ZX Spectrum Next projects
+
+## Sinclair ZX Spectrum Next - Games and other software
+
   * [W.A.S.P. Studio Games with Sting!](https://wearespectrumprogrammers.com/)
-  * specnext.com Developer's Wiki [Main Page](https://wiki.specnext.dev/) [FAQ](https://wiki.specnext.dev/FAQ) [Development Tools](https://wiki.specnext.dev/Development_Tools) [Bibliography](https://wiki.specnext.dev/Bibliography) [Z80 Programming](https://wiki.specnext.dev/Z80_programming) [Z80 Extended Instruction Set](https://wiki.specnext.dev/Extended_Z80_instruction_set) [Emulators](https://wiki.specnext.dev/Emulators)
-  * [NEXTECH by Simon N. Goodwin](http://simon.mooli.org.uk/nextech/index.html)
-  * [NextBuild (GitHub page)](https://github.com/em00k/NextBuild) A suite of tools based on Boriel's ZX Basic Compiler targeting the ZX Spectrum Next
-  * [Advanced Programming of the ZX Spectrum Next](https://lemmings.info/advanced-programming-of-the-zx-spectrum-next/)
-  * [Z80 Documentation (Zilog, offline)](../old/Spectrum/um0080.pdf)
 
 ## Unix
 
@@ -160,8 +207,10 @@ Spectrum Next Unix Windows
   * [How to wipe your hard drive](Windows/how-to-wipe-your-hard-drive.odt).
   * [Reinstalling Windows](Windows/reinstalling-windows.odt).
   * [Windows CMD commands](Windows/Windows-CMD-Commands.odt).
+  * [From Linux to PowerShell and Back: A Quick Command Reference](https://www.secureideas.com/blog/from-linux-to-powershell-and-back-a-quick-command-reference).
   * [Windows networking](Windows/windows-networking.odt).
+  * [Microsoft Activation Scripts (MAS) used to get Windows 10 Extended Updates](https://massgrave.dev/).
 
-Created : 7th July 2021 Last update : 13th March 2025 [Validating a web
+Created : 7th July 2021 Last update : 26th July 2026 [Validating a web
 page.](http://validator.w3.org/nu/#file)  
 

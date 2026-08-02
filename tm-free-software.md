@@ -86,6 +86,7 @@ memory stick or external USB hard drives.
 
   * Guide to [creating a bootable DOS USB stick](https://www.thomas-krenn.com/en/wiki/Creating_a_Bootable_DOS_USB_Stick) (Thomas Krenn).
   * [FreeDOS](http://www.freedos.org/) an open source DOS compatible O.S.
+  * [bios-pw.org - clear (some) BIOS passwords](https://bios-pw.org/)
 
 The GNU people have created a page about free programs and the commercial
 programs they aim to replace right
@@ -113,9 +114,10 @@ based)](https://antixlinux.com/)), the challenge is knowing which packages
 your free software is in.
 
 To install Ubuntu Linux, you'll need an .iso file, downloadable from
-[here](http://releases.ubuntu.com/). If you want to download a flavour of
-Ubuntu Linux, take a look here [here](https://cdimages.ubuntu.com/). If you
-have problems accessing Canonical's Ubuntu servers , take a look here
+[releases.ubuntu.com](http://releases.ubuntu.com/). If you want to download a
+flavour of Ubuntu Linux, take a look here
+[cdimages.ubuntu.com](https://cdimages.ubuntu.com/). If you have problems
+accessing Canonical's Ubuntu servers , take a look here
 [here](https://status.canonical.com/). If you want a different Linux, take a
 look at [DistroWatch](https://distrowatch.com/) to find out about other
 distributions of Linux.
@@ -129,9 +131,10 @@ much memory as Ubuntu.
 ### Ubuntu Linux variants (aka Distributions or Distros)
 
   1. [lubuntu](https://lubuntu.me/)
-  2. [ubuntu](https://ubuntu.com/) the original flavour
-  3. [ubuntu studio](https://ubuntustudio.org/) used for audio, graphics, photography, video 
-  4. [Xubuntu](https://xubuntu.org/) \- uses Xfce, a lighterweight desktop environment
+  2. [Mint](https://linuxmint.com/)
+  3. [ubuntu](https://ubuntu.com/) the original flavour
+  4. [ubuntu studio](https://ubuntustudio.org/) used for audio, graphics, photography, video 
+  5. [Xubuntu](https://xubuntu.org/) \- uses Xfce, a lighterweight desktop environment
 
 With Linux, there are at least two databases about packages. The package
 database on your computer tracks what is installed and which version it is.
@@ -145,6 +148,12 @@ the databases mentioned previously, a "Software Updater" programme can run
 every so often and tell the user about newer releases of currently installed
 software.
 
+Testing Ubuntu pre-release software is now done on <https://tests.ubuntu.com/>
+which is explained [here on
+discourse.](https://discourse.ubuntu.com/t/retiring-the-iso-tracker-
+introducing-tests-ubuntu-com-for-26-04-lts/78683) For users wanting to report
+bugs in Ubuntu, use the ubuntu-bug command.
+
 ### Ubuntu Linux specific pages
 
   1. [Official Ubuntu site for downloading and documentation.](https://www.ubuntu.com/desktop)
@@ -152,12 +161,13 @@ software.
   3. [Official Ubuntu page for installing Ubuntu Desktop.](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/)
   4. [Official Ubuntu page for trying Ubuntu before you install it..](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started)
   5. [How to download all required Ubuntu drivers - see software-properties-gtk](https://askubuntu.com/questions/543325/how-to-download-all-required-ubuntu-drivers)
-  6. [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-  7. [Information on how the Ubuntu Project runs](https://documentation.ubuntu.com/project/)
-  8. [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
-  9. [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
-  10. [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
-  11. [Extensions for the GNOME desktop.](https://extensions.gnome.org)
+  6. [Official Ubuntu documentation for software developers](https://documentation.ubuntu.com/ubuntu-for-developers/)
+  7. [Linux Command Line for Beginners (Ubuntu)](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+  8. [Information on how the Ubuntu Project runs](https://documentation.ubuntu.com/project/)
+  9. [MUD: Migrating From Windows to Ubuntu: The Ultimate Guide.](https://www.makeuseof.com/tag/migrating-from-windows-7-to-ubuntu/)
+  10. [Guide to Ubuntu flavours - variations of the main Ubuntu.](https://www.ubuntu.com/download/flavours)
+  11. [Forbes: Understanding the many versions (flavours) of Ubuntu.](https://www.forbes.com/sites/jasonevangelho/2018/11/28/linux-for-beginners-understanding-the-many-versions-of-ubuntu/)
+  12. [Extensions for the GNOME desktop.](https://extensions.gnome.org)
 
 ### Other Linux specific documentation pages
 
@@ -214,6 +224,12 @@ Linux on Apple hardware, I'll cite them here:
   * [Reviving an old MacBook Pro with Ubuntu Linux (medium.com)](https://medium.com/@rowaido.game/reviving-an-old-macbook-pro-with-ubuntu-linux-689252fa4b9c)
   * [Linux support for Apple devices with the T2 security chip](https://t2linux.org/)
 
+Ksk Royal information
+
+  * [How TO install Ubuntu on ANY OLD MacBook - Ksk Royal - YouTube video](https://www.youtube.com/watch?v=cniXOBie1Pw)
+  * [24 Things TO DO After Installing UBUNTU 24.04 LTS](https://youtu.be/vLm2EHIaxOo)
+  * [Top Things TO DO After Installing UBUNTU 26.04 LTS](https://kskroyal.com/things-to-do-after-installing-ubuntu-26-04/)
+
 ## Creating bootable installation media for downloaded iso files
 
   * For multiple isos on the same memory stick, download Ventoy from [sourceforge](https://sourceforge.net/projects/ventoy/) and visit [Ventoy's website](https://www.ventoy.net/en/index.html) for more details. You can create bootable USB flash drives (nice GUI etc) in Windows, Linux, etc to put multiple iso files on the same USB memory stick.
@@ -259,12 +275,16 @@ bootable USB flash drives (nice GUI etc) in Windows. To put multiple isos on
 the same USB memory stick see Ventoy listed under [Creating bootable
 installation media](#creating-bootable-installation-media).
 
+Rescuing data. Booting CAINE and using Photorec is one option. [DMDE (Data
+Recovery Software)](https://dmde.com/) has a modestly capable free version and
+its non-free version is more capable.
+
   * [aban](https://aban.derobert.net/) is an open-source alternative to [dban](https://dban.org/). They will both wipe one or more hard discs attached to your computer.
   * [CAINE](https://www.caine-live.net/) is for Linux experts only and is the "Computer Aided INvestigative Environment" and I have used it to rescue data from a poorly Windows system.
   * [Clonezilla](https://clonezilla.org/) is a live CD that is a (hard disc) partitioning and cloning programme. It needs plenty of disc space but is intelligent - it only copies sectors that have information in them.
   * [Finnix](https://www.finnix.org/) \- The original utility live Linux distro. Fits on a CD. Lots of tools but no documentation
   * [GParted](https://gparted.org/) will resize, copy, move and potentially rescue files on a computer's hard disc.
-  * [Hiren's Boot CD](https://www.hirensbootcd.org/) is a "first aid kit" for your computer.
+  * [Hiren's Boot CD](https://www.hirensbootcd.org/) is a "first aid kit" for your Windows computer. As [documented by The Register](https://www.theregister.com/2012/02/09/windows_tools_of_the_trade_not_always_best_for_the_job/). 
   * [Kali Linux](https://www.kali.org/) is used for penetration testing, something I have not tried yet.
   * [memtest86+](https://www.memtest.org/) will help you check your PC's memory, if you suspect that your computer is faulty..
   * [Rescatux & Super Grub 2 Disk](https://www.supergrubdisk.org/rescatux/) will fix filesystems, wipe passwords (Linux/Windows), make a user a sudoer.
@@ -313,7 +333,7 @@ collection of software that I like to use on a day to day basis:-
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
   * [Ubuntu - html-to-markdown uses the html2markdown command](https://manpages.ubuntu.com/manpages/focal/man1/html-to-markdown.1.html)
 
-Created : Years Ago. Last update 21st December 2025 [(This page
+Created : Years Ago. Last update 30th July 2026 [(This page
 online)](https://github.com/ian-bruntlett/TECH-Manuals/blob/main/tm-free-
 software.md) [Validating a web page.](http://validator.w3.org/nu/#file)
 
